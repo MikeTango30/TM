@@ -1,7 +1,11 @@
 .container {
-  max-width: 65%;
+  max-width: 1080px;
 }
 
-.header .row {
-  flex-wrap: nowrap;
+.navbar-brand img {
+  max-width: 169px;
+}
+
+.nav-item {
+  text-transform: uppercase;
 }

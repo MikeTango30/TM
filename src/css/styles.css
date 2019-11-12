@@ -1,7 +1,30 @@
 .container {
-  max-width: 65%; }
+  max-width: 1080px; }
 
-.header .row {
-  flex-wrap: nowrap; }
+.navbar-brand img {
+  max-width: 169px; }
+
+.nav-item {
+  text-transform: uppercase; }
+
+.container-fluid {
+  font-family: "Raleway", sans-serif; }
+
+header, .nav-item a {
+  color: #4b5486; }
+
+header .row:first-child {
+  font-size: 0.875rem; }
+
+.nav-item {
+  font-size: "Raleway", sans-serif;
+  font-weight: bold; }
+
+header .row:first-child div:nth-child(4) {
+  background: no-repeat right url("../assets/images/maharishi-logov2.png");
+  background-size: contain; }
+
+header .row:nth-child(2) {
+  background-color: #9addf5; }
 
 /*# sourceMappingURL=styles.css.map */

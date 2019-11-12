@@ -1,0 +1,19 @@
+@import "typography";
+
+.container-fluid {
+  font-family: $font-family-body;
+}
+
+header, .nav-item a {
+  color: $color__text-body-dark;
+}
+
+header .row:first-child {
+  font-size: $font-size__small;
+}
+
+.nav-item {
+  font-size: $font-family-body;
+  font-weight: bold;
+}
+

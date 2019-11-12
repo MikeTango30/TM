@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,UAAW;EACT,SAAS,EAAE,GAAG;;AAGhB,YAAa;EACX,SAAS,EAAE,MAAM",
-"sources": ["../sass/_global-elements.scss"],
+"mappings": "AAAA,UAAW;EACT,SAAS,EAAE,MAAM;;AAGnB,iBAAkB;EAChB,SAAS,EAAE,KAAK;;AAGlB,SAAU;EACR,cAAc,EAAE,SAAS;;ACP3B,gBAAiB;EACf,WAAW,ECAM,qBAAqB;;ADGxC,mBAAoB;EAClB,KAAK,ECY4B,OAAoB;;ADTvD,uBAAwB;EACtB,SAAS,ECFS,QAAQ;;ADK5B,SAAU;EACR,SAAS,ECZQ,qBAAqB;EDatC,WAAW,EAAE,IAAI;;AEdnB,wCAAyC;EACvC,UAAU,EAAE,4DAA4D;EACxE,eAAe,EAAE,OAAO;;AAG1B,wBAAyB;EACvB,gBAAgB,ECFa,OAAO",
+"sources": ["../sass/_global-elements.scss","../sass/_global-typography.scss","../sass/_typography.scss","../sass/_backgrounds.scss","../sass/_colors.scss"],
 "names": [],
 "file": "styles.css"
 }

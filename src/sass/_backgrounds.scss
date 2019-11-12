@@ -1,0 +1,10 @@
+@import "colors";
+
+header .row:first-child div:nth-child(4) {
+  background: no-repeat right url("../assets/images/maharishi-logov2.png");
+  background-size: contain;
+}
+
+header .row:nth-child(2) {
+  background-color: $color__turquoise-blue;
+}

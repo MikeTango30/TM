@@ -4,16 +4,16 @@
   font-family: $font-family-body;
 }
 
-header, .nav-item a {
+header, .maharishi-logo a, .nav-item a {
   color: $color__text-body-dark;
 }
 
-header .row:first-child {
+header .row .row:first-child {
   font-size: $font-size__small;
 }
 
-.nav-item {
-  font-size: $font-family-body;
+.nav-item a{
+  font-size: 1rem;
   font-weight: bold;
 }
 

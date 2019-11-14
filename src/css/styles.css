@@ -40,6 +40,9 @@ header .row .row:first-child {
   font-size: 1rem;
   font-weight: bold; }
 
+main section:first-child {
+  color: #ffffff; }
+
 .maharishi-logo {
   background: no-repeat right url("../assets/images/maharishi-logov2.png");
   background-size: contain; }

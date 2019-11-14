@@ -17,3 +17,9 @@ header .row .row:first-child {
   font-weight: bold;
 }
 
+main {
+  section:first-child {
+    color: $color__white;
+  }
+}
+

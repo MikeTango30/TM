@@ -1,145 +1,166 @@
 .container {
-  max-width: 1080px;
-}
+  max-width: 1200px; }
+
+img {
+  margin-bottom: 1rem; }
 
 .header-upper {
-  padding: 4px 30px;
-}
-.header-upper .row {
-  padding: 0 15px;
-}
+  padding: 4px 30px; }
+  .header-upper .row {
+    padding: 0 15px; }
 
 header {
-  text-align: right;
-}
+  text-align: right; }
 
 .maharishi-logo {
   padding: 15px 50px 15px 0;
-  min-height: 21px;
-}
-.maharishi-logo a {
-  text-decoration: none;
-}
+  min-height: 21px; }
+  .maharishi-logo a {
+    text-decoration: none; }
 
 .navbar-brand img {
-  max-width: 169px;
-}
+  max-width: 169px; }
 
 .navbar-collapse {
-  justify-content: flex-end;
-}
+  justify-content: flex-end; }
 
 .nav-item {
   text-transform: uppercase;
-  padding: 0 15px;
-}
-.nav-item .nav-link {
-  padding-right: 0;
-}
+  padding: 0 15px; }
+  .nav-item .nav-link {
+    padding-right: 0; }
 
 main section:first-child .container .row {
-  margin: 3.5rem 10px;
-}
+  margin: 3.5rem 10px; }
 main section:first-child .find-teacher {
-  justify-content: center;
-}
-main section:first-child .find-teacher h4 {
-  padding: 15px 10px 10px 10px;
-  margin: 0;
-}
+  justify-content: center; }
+  main section:first-child .find-teacher h4 {
+    padding: 15px 10px 10px 10px;
+    margin: 0; }
 main .ellen div:first-child {
-  text-align: center;
-}
+  text-align: center; }
 main .what-is-tm div:first-child {
-  text-align: center;
-}
+  text-align: center; }
+main .clouds div:nth-child(2) {
+  padding: 2.2rem 3.1rem; }
+  main .clouds div:nth-child(2) p {
+    margin-bottom: 0; }
+main .endorsement div:nth-child(3) {
+  padding: 1.25rem 1rem;
+  text-align: center; }
+  main .endorsement div:nth-child(3) .wrapper {
+    justify-content: center;
+    margin: auto;
+    padding: 0.7rem 0; }
+main .what-happens div:last-child {
+  text-align: center; }
 
 .container-fluid {
-  font-family: "Raleway", sans-serif;
-}
+  font-family: "Raleway", sans-serif; }
 
 header, .maharishi-logo a, .nav-item a {
-  color: #4b5486;
-}
+  color: #4b5486; }
 
 header .row .row:first-child {
-  font-size: 0.875rem;
-}
+  font-size: 0.875rem; }
 
 .nav-item a {
   font-size: 1rem;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 main section:first-child .container {
-  color: #ffffff;
-}
-main section:first-child .container a {
-  color: #ffffff;
-  text-decoration: underline;
-}
-main section:first-child .container li {
-  font-size: 2.5rem;
-}
-main section:first-child .container li p {
-  font-size: 1.125rem;
-}
+  color: #ffffff; }
+  main section:first-child .container a {
+    color: #ffffff;
+    text-decoration: underline; }
+  main section:first-child .container li {
+    font-size: 2.5rem; }
+    main section:first-child .container li p {
+      font-size: 1.125rem; }
 main section:first-child .find-teacher {
-  color: #ffffff;
-}
-main section:first-child .find-teacher:hover {
-  color: #c485d2;
-}
+  color: #ffffff; }
+  main section:first-child .find-teacher:hover {
+    color: #c485d2; }
 main .ellen div:first-child {
   color: #5a7c93;
-  padding: 1.5rem 0;
-}
-main .ellen div:first-child p {
-  font-size: 1.25rem;
-  padding-top: 0.5rem;
-}
+  padding: 1.5rem 0; }
+  main .ellen div:first-child p {
+    font-size: 1.25rem;
+    padding-top: .5rem; }
 main .what-is-tm div:first-child {
   font-size: 1.75rem;
-  color: #ffffff;
-}
+  color: #ffffff; }
+main .clouds div:nth-child(2) {
+  font-size: 1.25rem;
+  color: #5a7c93; }
+main .endorsement div:nth-child(3) {
+  color: #ffffff; }
+  main .endorsement div:nth-child(3) p:nth-child(2) {
+    font-weight: 700;
+    font-size: 1.25rem; }
+  main .endorsement div:nth-child(3) p:last-child {
+    font-size: 0.875rem; }
+main .what-happens div:last-child {
+  font-size: 1.75rem;
+  color: #ffffff; }
 
 h1, h2, h3, h4 {
   font-weight: 700;
-  line-height: 1.5;
-}
+  line-height: 1.5; }
 
 .maharishi-logo {
   background: no-repeat right url("../assets/images/maharishi-logov2.png");
-  background-size: contain;
-}
+  background-size: contain; }
 
 header .row:nth-child(2) {
-  background-color: #9addf5;
-}
+  background-color: #9addf5; }
 
 .background-ocean {
   background: no-repeat 50% url("../assets/images/numbersbanner2.jpg");
   background-size: cover;
-  max-height: 570px;
-}
+  max-height: 570px; }
 
 .find-teacher {
-  background-color: #1c83ef;
-}
-.find-teacher:hover {
-  background-color: #dffff8;
-}
+  background-color: #1c83ef; }
+  .find-teacher:hover {
+    background-color: #dffff8; }
 
 .ellen div:first-child {
   background-color: #ebf8fc;
-}
+  max-height: 305px; }
 .ellen div:last-child {
   background: no-repeat url("../assets/images/ellenShow.jpg");
-  background-size: cover;
-}
+  background-size: cover; }
 
 .what-is-tm div:first-child {
   background-color: #42bff4;
-}
+  height: 300px; }
+.what-is-tm div:nth-child(2) {
+  background: no-repeat url("../assets/images/tmHome.jpg");
+  background-size: cover; }
+
+.clouds div:first-child {
+  background-color: #7ed2f5; }
+.clouds div:nth-child(2) {
+  background: no-repeat 10% 0 url("../assets/images/arrow-content-down.png");
+  height: 300px; }
+.clouds div:last-child {
+  background: no-repeat url("../assets/images/background25_560x560.jpg"); }
+
+.endorsement div:nth-child(2) {
+  background: no-repeat url("../assets/images/cameron.jpg");
+  background-size: cover;
+  height: 300px; }
+.endorsement div:nth-child(3) {
+  background-color: #acbcc7; }
+.endorsement div:nth-child(4) {
+  background-color: #7ed2f5; }
+
+.what-happens div:first-child {
+  background-color: #7ed2f5;
+  height: 300px; }
+.what-happens div:last-child {
+  background-color: #4e99f0;
+  background-size: cover; }
 
 /*# sourceMappingURL=styles.css.map */

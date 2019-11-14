@@ -25,6 +25,7 @@ header .row:nth-child(2) {
 .ellen {
   div:first-child {
     background-color: $color__alice-blue;
+    max-height: 305px;
   }
   div:last-child {
     background: no-repeat url("../assets/images/ellenShow.jpg");
@@ -35,5 +36,48 @@ header .row:nth-child(2) {
 .what-is-tm {
   div:first-child {
     background-color: $color__medium-cyan;
+    height: 300px;
+  }
+  div:nth-child(2) {
+    background: no-repeat url("../assets/images/tmHome.jpg");
+    background-size: cover;
+  }
+}
+
+.clouds {
+  div:first-child {
+    background-color: $color__light-sky;
+  }
+  div:nth-child(2) {
+    background: no-repeat 10% 0 url("../assets/images/arrow-content-down.png");
+    height: 300px;
+  }
+  div:last-child {
+    background: no-repeat url("../assets/images/background25_560x560.jpg");
+  }
+}
+
+.endorsement {
+  div:nth-child(2) {
+    background: no-repeat url("../assets/images/cameron.jpg");
+    background-size: cover;
+    height: 300px;
+  }
+  div:nth-child(3) {
+    background-color: $color__heather;
+  }
+  div:nth-child(4) {
+    background-color: $color__light-sky;
+  }
+}
+
+.what-happens {
+  div:first-child {
+    background-color: $color__light-sky;
+    height: 300px;
+  }
+  div:last-child {
+    background-color: $color__chrome-blue;
+    background-size: cover;
   }
 }

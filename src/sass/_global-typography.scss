@@ -55,7 +55,32 @@ main {
       color: $color__white;
     }
   }
+  .clouds {
+    div:nth-child(2) {
+      font-size: $font-size__large;
+      color: $color__cyan-blue;
+    }
+  }
+  .endorsement {
+    div:nth-child(3) {
+      color: $color__white;
+      p:nth-child(2) {
+        font-weight: $font-weight__bold;
+        font-size: $font-size__large;
+      }
+      p:last-child {
+        font-size: $font-size__small;
+      }
+    }
+  }
+  .what-happens {
+    div:last-child {
+      font-size: 1.75rem;
+      color: $color__white;
+    }
+  }
 }
+
 
 h1, h2, h3, h4 {
   font-weight: $font-weight__bold;

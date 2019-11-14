@@ -19,7 +19,46 @@ header .row .row:first-child {
 
 main {
   section:first-child {
-    color: $color__white;
+    .container {
+      color: $color__white;
+      a {
+        color:$color__white;
+        text-decoration: underline;
+      }
+      li {
+        font-size: 2.5rem;
+        p {
+          font-size: $font-size__medium;
+        }
+      }
+    }
+    .find-teacher {
+      color: $color__white;
+      &:hover {
+        color: $color__wisteria;
+      }
+    }
   }
+  .ellen {
+    div:first-child {
+      color: $color__cyan-blue;
+      padding: 1.5rem 0;
+      p {
+        font-size: $font-size__large;
+        padding-top: .5rem;
+      }
+    }
+  }
+  .what-is-tm {
+    div:first-child {
+      font-size: 1.75rem;
+      color: $color__white;
+    }
+  }
+}
+
+h1, h2, h3, h4 {
+  font-weight: $font-weight__bold;
+  line-height: 1.5;
 }
 

@@ -9,10 +9,31 @@ header .row:nth-child(2) {
   background-color: $color__turquoise-blue;
 }
 
-main {
-  section:first-child {
-    background: no-repeat url("../assets/images/numbersbanner2.jpg");
+.background-ocean {
+  background: no-repeat 50% url("../assets/images/numbersbanner2.jpg");
+  background-size: cover;
+  max-height: 570px;
+}
+
+.find-teacher {
+  background-color: $color__near-dodger-blue;
+  &:hover {
+    background-color: $color__light-cyan;
+  }
+}
+
+.ellen {
+  div:first-child {
+    background-color: $color__alice-blue;
+  }
+  div:last-child {
+    background: no-repeat url("../assets/images/ellenShow.jpg");
     background-size: cover;
-    height: 570px;
+  }
+}
+
+.what-is-tm {
+  div:first-child {
+    background-color: $color__medium-cyan;
   }
 }

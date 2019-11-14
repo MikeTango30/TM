@@ -38,3 +38,30 @@ header {
     padding-right: 0;
   }
 }
+
+main {
+    section:first-child {
+        .container {
+            .row {
+                margin: 3.5rem 10px;
+            }
+        }
+      .find-teacher {
+        justify-content: center;
+        h4 {
+          padding: 15px 10px 10px 10px;
+          margin: 0;
+        }
+      }
+    }
+  .ellen {
+    div:first-child {
+      text-align: center;
+    }
+  }
+  .what-is-tm {
+    div:first-child {
+      text-align: center;
+    }
+  }
+}

@@ -1,3 +1,5 @@
+@import "colors";
+
 .container {
   max-width: 1200px;
 }
@@ -23,6 +25,10 @@ header {
   a {
     text-decoration: none;
   }
+}
+
+.header-flag:before {
+  content: url("../assets/images/ukFlag.png");
 }
 
 .navbar-brand {
@@ -91,5 +97,118 @@ main {
     div:last-child {
       text-align: center;
     }
+  }
+  .daisies, .tm-value {
+    align-items: center;
+    div div {
+      padding: 2.2rem 3.1rem;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .mccartney, .maharishi {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    h3 {
+      padding-bottom: 0.75rem;
+    }
+    p {
+      padding-bottom: 1rem;
+    }
+    .col {
+      padding: 2.2rem 3.1rem;
+    }
+  }
+  .benefits-first-row {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 2rem 0;
+    align-items: center;
+    img {
+      margin-bottom: 0;
+    }
+  }
+  .benefits-second-row {
+    width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 0 2rem;
+    h5 {
+      line-height: .8;
+    }
+  }
+  .take-step {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2.2rem 3.1rem;
+  }
+  .contact-us {
+    justify-content: center;
+  }
+  .faq {
+    align-items: center;
+  }
+  .accordion-container {
+    width: 100%;
+  }
+  .accordion-head {
+    width: 100%;
+    padding:  5px 10px;
+    margin-left: 1rem;
+    border-top: 1px solid $color__white;
+    span {
+      float: right;
+      padding-right: 1rem;
+    }
+  }
+  .eu-sub-left {
+    div {
+      height: 100%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  .eu-sub-right {
+    p {
+      padding: 10px;
+    }
+  }
+  .footer-upper {
+    .tm-logo-footer {
+      max-width: 250px;
+    }
+    .col-md-3 {
+    text-align: left;
+      padding: 3.2rem 0;
+    }
+    img {
+      width: 100%;
+      padding-left: 3.5rem;
+    }
+    ul {
+      padding: 0;
+    }
+    li {
+      line-height: 2;
+      padding: 5px 0;
+    }
+  }
+  .footer-lower {
+    text-align: center;
+    div {
+      padding: 1rem .6rem;
+    }
+    p {
+     padding: 2px 0;
+      margin-bottom: 0;
+    }
+  }
+  .flag:after {
+    content: url("../assets/images/ukFlag.png");
+    padding-left: 0.4rem;
   }
 }

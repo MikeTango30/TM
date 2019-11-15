@@ -81,3 +81,59 @@ header .row:nth-child(2) {
     background-size: cover;
   }
 }
+
+.daisies {
+  div:first-child {
+    background: no-repeat url("../assets/images/daisies_1000x500.jpg");
+    background-size: cover;
+    height: 300px;
+  }
+  div:last-child {
+    background: no-repeat 50% 0 url("../assets/images/arrow-content-down.png");
+  }
+}
+
+.mccartney, .maharishi {
+  background-color: $color__alice-blue;
+  p {
+    background: no-repeat 50% 100% url("../assets/images/bg-quote.gif");
+    display: block;
+  }
+}
+
+.tm-value {
+  div:first-child {
+    background-color: $color__light-sky;
+    height: 300px;
+  }
+  div:last-child {
+    background: none;
+    .arrow-left {
+      background: no-repeat 0 50% url("../assets/images/arrow-content-left.png");
+    }
+  }
+}
+
+.benefits {
+  background-color: $color__chrome-blue;
+  height: 300px;
+}
+
+.take-step {
+  background-color: $color__summer-sky;
+}
+.contact-us {
+  background-color: $color__near-dodger-blue;
+}
+.faq, .accordion {
+  background-color: $color__near-dodger-blue;
+}
+.eu-sub-left {
+  background-color: $color__summer-sky;
+}
+.footer-upper {
+  background-color: $color__alice-blue;
+}
+.footer-lower {
+  background-color: $color__medium-cyan;
+}

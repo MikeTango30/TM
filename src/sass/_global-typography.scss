@@ -4,12 +4,21 @@
   font-family: $font-family-body;
 }
 
-header, .maharishi-logo a, .nav-item a {
+header a, .nav-item a {
   color: $color__text-body-dark;
 }
 
 header .row .row:first-child {
   font-size: $font-size__small;
+}
+
+.navbar-brand {
+  div {
+    max-width: 215px;
+    img {
+      width: 100%;
+    }
+  }
 }
 
 .nav-item a{
@@ -25,10 +34,17 @@ main {
         color:$color__white;
         text-decoration: underline;
       }
-      li {
-        font-size: 2.5rem;
+      .wrapper {
+        .col:last-child {
+          .list-decimal {
+            font-size: 2.5rem;
+          }
+        }
         p {
           font-size: $font-size__medium;
+          span {
+            font-weight: $font-weight__bold;
+          }
         }
       }
     }
@@ -109,11 +125,13 @@ main {
     font-weight: normal;
     font-size: 0.75rem;
     text-transform: uppercase;
+    text-decoration: none;
   }
   .maharishi {
-    p {
+    a {
       color: $color__medium-cyan;
       font-weight: $font-weight__bold;
+      text-decoration: none;
     }
   }
   .take-step {
@@ -129,6 +147,7 @@ main {
   .contact-us {
     a {
       color: $color__white;
+      text-decoration: none;
     }
   }
   .faq, .accordion {

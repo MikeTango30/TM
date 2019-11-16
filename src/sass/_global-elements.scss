@@ -4,10 +4,6 @@
   max-width: 1200px;
 }
 
-img {
-  margin-bottom: 1rem;
-}
-
 .header-upper {
   padding: 4px 30px;
   .row {
@@ -17,24 +13,21 @@ img {
 
 header {
   text-align: right;
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .maharishi-logo {
   padding: 15px 50px 15px 0;
   min-height: 21px;
-  a {
-    text-decoration: none;
-  }
 }
 
 .header-flag:before {
   content: url("../assets/images/ukFlag.png");
-}
-
-.navbar-brand {
-  img {
-    max-width: 169px;
-  }
 }
 
 .navbar-collapse {
@@ -52,8 +45,18 @@ header {
 main {
   section:first-child {
     .container {
-      .row {
+      .wrapper {
+        h1 {
+          margin-bottom: 1rem;
+        }
           margin: 3.5rem 10px;
+        p {
+          padding: 1rem 0;
+          margin: 0 0 0 -3rem;
+        }
+        .list-decimal {
+          align-self: center;
+        }
       }
     }
     .find-teacher {
@@ -67,6 +70,12 @@ main {
   .ellen {
     div:first-child {
       text-align: center;
+      .play-button {
+        padding: 0;
+      }
+      h4 {
+        margin-top: .5rem;
+      }
     }
   }
   .what-is-tm {
@@ -90,6 +99,9 @@ main {
         justify-content: center;
         margin: auto;
         padding: 0.7rem 0;
+        .play-button {
+          margin-bottom: .7rem;
+        }
       }
     }
   }
@@ -115,7 +127,7 @@ main {
       padding-bottom: 0.75rem;
     }
     p {
-      padding-bottom: 1rem;
+      padding: 1rem 0;
     }
     .col {
       padding: 2.2rem 3.1rem;
@@ -150,6 +162,9 @@ main {
   }
   .faq {
     align-items: center;
+    .arrow-down {
+      margin-bottom: 1rem;
+    }
   }
   .accordion-container {
     width: 100%;
@@ -175,6 +190,9 @@ main {
   .eu-sub-right {
     p {
       padding: 10px;
+    }
+    .eu-logo, .eu-unity-logo {
+      padding: .5rem 0;
     }
   }
   .footer-upper {

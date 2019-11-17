@@ -23,10 +23,13 @@ header .row:nth-child(2) {
   }
   div:last-child {
     a {
-      background: no-repeat url("../assets/images/ellenShow.jpg");
-      background-size: contain;
+      background: no-repeat center url("../assets/images/ellenShow.jpg");
+      background-size: cover;
       width: 100%;
-      height: 100%;
+      height: 230px;
+      @media (min-width: 576px) {
+        height: 100%;
+      }
       display: block;
     }
   }
@@ -35,7 +38,10 @@ header .row:nth-child(2) {
 .what-is-tm {
   div:first-child {
     background-color: $color__medium-cyan;
-    height: 300px;
+    height: 170px;
+    @media (min-width: 576px) {
+      height: 300px;
+    }
   }
   div:nth-child(2) {
     background: no-repeat url("../assets/images/tmHome.jpg");
@@ -57,7 +63,10 @@ header .row:nth-child(2) {
 
 .endorsement {
   div:nth-child(2) {
-    height: 300px;
+    height: 375px;
+    @media (min-width: 576px) {
+      height: 300px;
+    }
     a {
       background: no-repeat url("../assets/images/cameron.jpg");
       background-size: cover;
@@ -77,7 +86,10 @@ header .row:nth-child(2) {
 .what-happens {
   div:first-child {
     background-color: $color__light-sky;
-    height: 300px;
+    height: 170px;
+    @media (min-width: 576px) {
+      height: 300px;
+    }
   }
   div:last-child {
     background-color: $color__chrome-blue;
@@ -87,13 +99,18 @@ header .row:nth-child(2) {
 
 .daisies {
   .daisies-bg {
-    background: no-repeat url("../assets/images/daisies_1000x500.jpg");
-    background-size: cover;
-    height: 400px;
+      background: no-repeat url("../assets/images/daisies_1000x500.jpg");
+      background-size: cover;
+      height: 310px;
+      @media (min-width: 992px) {
+        height: 280.38px;
+      }
+      @media (min-width: 1200px) {
+        height: 250.38px;
+      }
   }
   div:last-child {
     background: no-repeat 50% 0 url("../assets/images/arrow-content-down.png");
-    height: 400px;
   }
 }
 
@@ -108,23 +125,30 @@ header .row:nth-child(2) {
 .tm-value {
   div:first-child {
     background-color: $color__light-sky;
-    height: 300px;
+    height: 184px;
+    @media (min-width: 576px) {
+      height: 300px;
+    }
   }
   div:last-child {
     background: none;
     .arrow-left {
-      background: no-repeat 0 50% url("../assets/images/arrow-content-left.png");
+      background: none;
+      @media (min-width: 576px) {
+        background: no-repeat 0 50% url("../assets/images/arrow-content-left.png");
+      }
     }
   }
 }
 
 .benefits {
   background-color: $color__chrome-blue;
-  height: 300px;
+  //height: 300px;
 }
 
 .take-step {
   background-color: $color__summer-sky;
+  min-height: 170px;
 }
 
 .contact-us {
@@ -137,6 +161,7 @@ header .row:nth-child(2) {
 
 .eu-sub-left {
   background-color: $color__summer-sky;
+  min-height: 170px;
 }
 
 .footer-upper {

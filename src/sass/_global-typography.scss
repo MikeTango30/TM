@@ -29,13 +29,10 @@ header, header a {
 
 // Nav Links
 .nav-item a{
+  font-size: $font-size__small;
   @media (min-width: 1080px) {
     font-size: $font-size__normal;
   }
-  @media (min-width: 578px) {
-    font-size: $font-size__small;
-  }
-
 
   font-weight: $font-weight__bold;
   &:hover{
@@ -79,7 +76,10 @@ main {
           }
         }
         p {
-          font-size: $font-size__medium;
+          font-size: $font-size__normal;
+          @media (min-width: 578px) {
+            font-size: $font-size__medium;
+          }
           span {
             font-weight: $font-weight__bold;
           }
@@ -135,15 +135,28 @@ main {
   }
   .daisies {
     div:last-child {
-      font-size: $font-size__large;
+      font-size: $font-size__normal;
+      @media (min-width: 576px) {
+        font-size: $font-size__large;
+      }
       color: $color__cyan-blue;
     }
   }
   .mccartney, .maharishi {
     .col {
       color: $color__cyan-blue;
+      p {
+        font-size: $font-size__small;
+        @media (min-width: 576px) {
+          font-size: $font-size__normal;
+        }
+      }
       h3 {
         font-weight: $font-weight__thinner;
+        font-size: $font-size__large;
+        @media (min-width: 576px) {
+          font-size: 1.75rem;
+        }
       }
     }
   }
@@ -154,7 +167,10 @@ main {
       font-weight: $font-weight__thinner;
     }
     p {
-      font-size: $font-size__large;
+      font-size: $font-size__normal;
+      @media (min-width: 576px) {
+        font-size: $font-size__large;
+      }
       color: $color__cyan-blue;
     }
   }
@@ -189,8 +205,15 @@ main {
     }
   }
   .faq, .accordion {
-
     color: $color__white;
+  }
+  .faq {
+    h1 {
+      font-size: 1.5rem;
+      @media (min-width: 576px) {
+        font-size: 2.5rem;
+      }
+    }
   }
   .accordion-head {
     font-size: $font-size__large;
@@ -202,12 +225,18 @@ main {
     h3 {
       color: $color__white;
       font-weight: $font-weight__thinner;
-      font-size: 1.75rem;
+      font-size: 1.25rem;
+      @media (min-width: 576px) {
+        font-size: 1.75rem;
+      }
     }
   }
   .eu-sub-right{
     color: $color__cyan-blue;
-    font-size: $font-size__large;
+    font-size: $font-size__normal;
+    @media (min-width: 576px) {
+      font-size: $font-size__large;
+    }
   }
   .footer-upper {
     a {

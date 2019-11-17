@@ -1,547 +1,519 @@
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
+
 .container {
-  max-width: 1200px;
-}
+  padding-right: 0;
+  padding-left: 0;
+  max-width: 1080px; }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px; } }
 
 header {
-  text-align: right;
-}
-header a {
-  text-decoration: none;
-}
-header a:hover {
-  text-decoration: underline;
-}
-header .header-upper {
-  padding: 4px 30px;
-}
-header .header-upper .row {
-  padding: 0;
-}
-@media (min-height: 767.98px) {
-  header .header-upper .row {
-    padding: 0 1rem;
-  }
-}
-header .header-flag {
-  text-align: right;
-}
-@media (min-width: 767.98px) {
+  text-align: right; }
+  header a {
+    text-decoration: none; }
+    header a:hover {
+      text-decoration: underline; }
+  header .header-upper {
+    padding: 4px 30px; }
+    header .header-upper .row {
+      padding: 0; }
+      @media (min-height: 767.98px) {
+        header .header-upper .row {
+          padding: 0 1rem; } }
   header .header-flag {
-    text-align: center;
-  }
-}
-header .maharishi-logo {
-  text-align: left;
-}
-@media (min-width: 767.98px) {
+    text-align: right; }
+    @media (min-width: 767.98px) {
+      header .header-flag {
+        text-align: center; } }
   header .maharishi-logo {
-    text-align: center;
-  }
-}
+    text-align: left; }
+    @media (min-width: 767.98px) {
+      header .maharishi-logo {
+        text-align: center; } }
 
 .navbar-collapse {
-  justify-content: flex-end;
-}
+  justify-content: flex-end; }
 
 .nav-item {
   text-transform: uppercase;
-  padding: 0 15px;
-}
-.nav-item .nav-link {
-  padding-right: 0;
-}
+  padding: 0 15px; }
+  .nav-item .nav-link {
+    padding-right: 0; }
 
 .dropdown:hover > .dropdown-menu {
-  display: block;
-}
+  display: block; }
 
 .dropdown > .dropdown-toggle:active {
-  pointer-events: none;
-}
+  pointer-events: none; }
 
 .dropdown-menu {
   border-radius: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 main section:first-child .container .wrapper {
-  margin: 3.5rem 10px;
-}
-main section:first-child .container .wrapper h1 {
-  margin-bottom: 1rem;
-}
-main section:first-child .container .wrapper p {
-  padding: 1rem 0;
-  margin: 0 0 0 -3rem;
-}
-main section:first-child .container .wrapper .list-number {
-  align-self: center;
-}
+  margin: 3.5rem 10px; }
+  main section:first-child .container .wrapper h1 {
+    margin-bottom: 1rem; }
+  main section:first-child .container .wrapper p {
+    padding: .4rem 0;
+    margin: 0 0 0 .5rem; }
+    @media (min-width: 576px) {
+      main section:first-child .container .wrapper p {
+        padding: 1rem 0;
+        margin: 0 0 0 -1rem; } }
+    @media (min-width: 992px) {
+      main section:first-child .container .wrapper p {
+        margin: 0 0 0 -2rem; } }
+    @media (min-width: 1200px) {
+      main section:first-child .container .wrapper p {
+        margin: 0 0 0 -3rem; } }
+  main section:first-child .container .wrapper .list-number {
+    align-self: center; }
 main section:first-child .find-teacher {
-  justify-content: center;
-}
-main section:first-child .find-teacher h4 {
-  padding: 15px 10px 10px 10px;
-  margin: 0;
-}
+  text-align: center;
+  justify-content: center; }
+  main section:first-child .find-teacher h4 {
+    padding: 15px 10px 10px 10px;
+    margin: 0; }
 main .ellen div:first-child {
-  text-align: center;
-}
-main .ellen div:first-child .play-button {
-  padding: 0;
-}
-main .ellen div:first-child h4 {
-  margin-top: 0.5rem;
-}
+  text-align: center; }
+  main .ellen div:first-child .play-button {
+    padding: 0; }
+  main .ellen div:first-child h4 {
+    margin-top: .5rem; }
 main .what-is-tm div:first-child {
-  text-align: center;
-}
+  text-align: center; }
 main .clouds div:nth-child(2) {
-  padding: 2.2rem 3.1rem;
-}
-main .clouds div:nth-child(2) p {
-  margin-bottom: 0;
-}
+  padding: 1.25rem 1.5rem; }
+  @media (min-width: 992px) {
+    main .clouds div:nth-child(2) {
+      padding: 2.2rem 3.1rem; } }
+  main .clouds div:nth-child(2) p {
+    margin-bottom: 0; }
 main .endorsement div:nth-child(3) {
   padding: 1.25rem 1rem;
-  text-align: center;
-}
-main .endorsement div:nth-child(3) .wrapper {
-  justify-content: center;
-  margin: auto;
-  padding: 0.7rem 0;
-}
-main .endorsement div:nth-child(3) .wrapper .play-button {
-  margin-bottom: 0.7rem;
-}
+  text-align: center; }
+  main .endorsement div:nth-child(3) .wrapper {
+    justify-content: center;
+    margin: auto;
+    padding: 0.7rem 0; }
+    main .endorsement div:nth-child(3) .wrapper .play-button {
+      margin-bottom: .7rem; }
 main .what-happens div:last-child {
-  text-align: center;
-}
+  text-align: center; }
 main .daisies, main .tm-value {
-  align-items: center;
-}
-main .daisies div div p, main .tm-value div div p {
-  padding: 2.2rem 3.1rem;
-  margin-bottom: 0;
-}
+  align-items: center; }
+  main .daisies div div p, main .tm-value div div p {
+    padding: 1.25rem .7rem;
+    text-align: center;
+    margin-bottom: 0; }
+    @media (min-width: 992px) {
+      main .daisies div div p, main .tm-value div div p {
+        padding: 1.25rem 1.5rem;
+        text-align: left; } }
+    @media (min-width: 992px) {
+      main .daisies div div p, main .tm-value div div p {
+        padding: 2.2rem 3.1rem; } }
 main .mccartney, main .maharishi {
   align-items: center;
   text-align: center;
-  justify-content: center;
-}
-main .mccartney h3, main .maharishi h3 {
-  padding-bottom: 0.75rem;
-}
-main .mccartney p, main .maharishi p {
-  padding: 1rem 0;
-}
-main .mccartney .col, main .maharishi .col {
-  padding: 2.2rem 3.1rem;
-}
-main .benefits-first-row {
+  justify-content: center; }
+  main .mccartney h3, main .maharishi h3 {
+    padding-bottom: 0.75rem; }
+  main .mccartney p, main .maharishi p {
+    padding: 1rem 0;
+    margin-bottom: 0; }
+  main .mccartney .col, main .maharishi .col {
+    padding: 1.25rem 1.5rem; }
+    @media (min-width: 992px) {
+      main .mccartney .col, main .maharishi .col {
+        padding: 2.2rem 3.1rem; } }
+main .benefits {
   width: 100%;
   text-align: center;
-  padding: 2rem 2rem 0;
-  align-items: center;
-}
-main .benefits-first-row img {
-  margin-bottom: 0;
-}
+  padding: 2rem 2rem 0; }
+  main .benefits img {
+    margin-bottom: 0; }
 main .benefits-second-row {
   width: 100%;
   text-align: center;
   justify-content: space-evenly;
-  padding: 0 2rem;
-}
-main .benefits-second-row h5 {
-  line-height: 0.8;
-}
+  padding: 0 2rem; }
+  main .benefits-second-row h5 {
+    line-height: .8; }
 main .take-step {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding: 2.2rem 3.1rem;
-}
+  padding: 2.2rem 3.1rem; }
+  main .take-step h1 {
+    font-size: 1.5rem; }
+    @media (min-width: 576px) {
+      main .take-step h1 {
+        font-size: 2.5rem; } }
 main .contact-us {
-  justify-content: center;
-}
+  text-align: center;
+  justify-content: center; }
 main .faq {
-  align-items: center;
-}
-main .faq .arrow-down {
-  margin-bottom: 1rem;
-}
+  align-items: center; }
+  main .faq h1 {
+    margin-top: 1.25rem; }
+    @media (min-width: 576px) {
+      main .faq h1 {
+        margin-top: 0; } }
+  main .faq .arrow-down {
+    margin-bottom: 1rem; }
 main .accordion-container {
-  width: 100%;
-}
+  width: 100%; }
 main .accordion-head {
   width: 100%;
   padding: 5px 10px;
   margin-left: 1rem;
-  border-top: 1px solid #ffffff;
-}
-main .accordion-head span {
-  float: right;
-  padding-right: 1rem;
-}
+  border-top: 1px solid #ffffff; }
+  main .accordion-head span {
+    float: right;
+    padding-right: 1rem; }
 main .eu-sub-left div {
   height: 100%;
   align-items: center;
   text-align: center;
-  justify-content: center;
-}
-main .eu-sub-right p {
-  padding: 10px;
-}
-main .eu-sub-right .eu-logo, main .eu-sub-right .eu-unity-logo {
-  padding: 0.5rem 0;
-}
-main .footer-upper .tm-logo-footer {
-  max-width: 250px;
-}
-main .footer-upper .col-md-3 {
-  text-align: left;
-  padding: 3.2rem 0;
-}
-main .footer-upper img {
-  width: 100%;
-  padding-left: 3.5rem;
-}
-main .footer-upper ul {
-  padding: 0;
-}
-main .footer-upper li {
-  line-height: 2;
-  padding: 5px 0;
-}
+  justify-content: center; }
+main .eu-sub-right {
+  text-align: center; }
+  @media (min-width: 576px) {
+    main .eu-sub-right {
+      text-align: left; } }
+  main .eu-sub-right .row {
+    padding: 1.25rem 0.625rem;
+    margin-bottom: 0; }
+    @media (min-width: 576px) {
+      main .eu-sub-right .row {
+        padding: 0.625rem; } }
+main .footer-upper {
+  padding: 2rem 1rem .75rem; }
+  main .footer-upper .tm-logo-footer {
+    max-width: 250px;
+    padding-bottom: 1rem;
+    margin: 0 auto; }
+  main .footer-upper .col-md-3 {
+    text-align: center;
+    padding-left: 0; }
+    @media (min-width: 576px) {
+      main .footer-upper .col-md-3 {
+        text-align: left; } }
+    @media (min-width: 768px) {
+      main .footer-upper .col-md-3 {
+        padding-left: 3rem; } }
+  main .footer-upper img {
+    width: 100%; }
+  main .footer-upper ul {
+    padding: 0; }
+  main .footer-upper li {
+    line-height: 1.7;
+    padding: 5px 0; }
 main .footer-lower {
-  text-align: center;
-}
-main .footer-lower div {
-  padding: 1rem 0.6rem;
-}
-main .footer-lower p {
-  padding: 2px 0;
-  margin-bottom: 0;
-}
+  text-align: center; }
+  main .footer-lower div {
+    padding: 1rem .6rem; }
+  main .footer-lower p {
+    padding: 2px 0;
+    margin-bottom: 0; }
 main .flag:after {
   content: url("../assets/images/ukFlag.png");
-  padding-left: 0.4rem;
-}
+  padding-left: 0.4rem; }
 
 .container-fluid {
   font-family: "Raleway", sans-serif;
-  color: #5a7c93;
-}
+  color: #5a7c93; }
 
 header, header a {
-  color: #4b5486;
-}
+  color: #4b5486; }
 
 .header-upper {
-  font-size: 0.875rem;
-}
+  font-size: .7rem; }
+  @media (min-width: 767.98px) {
+    .header-upper {
+      font-size: 0.875rem; } }
+
 .navbar-brand div {
-  max-width: 215px;
-}
-.navbar-brand div img {
-  width: 100%;
-}
+  max-width: 215px; }
+  .navbar-brand div img {
+    width: 100%; }
 
 .nav-item a {
-  font-weight: 700;
-}
-@media (min-width: 1080px) {
-  .nav-item a {
-    font-size: 1rem;
-  }
-}
-@media (min-width: 578px) {
-  .nav-item a {
-    font-size: 0.875rem;
-  }
-}
-.nav-item a:hover {
-  color: #98add1;
-}
+  font-size: 0.875rem;
+  font-weight: 700; }
+  @media (min-width: 1080px) {
+    .nav-item a {
+      font-size: 1rem; } }
+  .nav-item a:hover {
+    color: #98add1; }
 
 .dropdown-menu .dropdown-item {
   font-weight: 300;
   color: #ffffff;
-  background-color: #1c83ef;
-}
-.dropdown-menu .dropdown-item:hover {
-  color: #ffffff;
-  background-color: #004C80;
-}
-.dropdown-menu .dropdown-item:focus {
-  color: #ffffff;
-  background-color: #006ab3;
-}
+  background-color: #1c83ef; }
+  .dropdown-menu .dropdown-item:hover {
+    color: #ffffff;
+    background-color: #004C80; }
+  .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+    background-color: #006ab3; }
 .dropdown-menu .dropdown-item:nth-child(n+2):nth-child(-n+5) {
-  border-top: 1px solid #ffffff;
-}
+  border-top: 1px solid #ffffff; }
 
 main section:first-child .container {
-  color: #ffffff;
-}
-main section:first-child .container a {
-  color: #ffffff;
-  text-decoration: underline;
-}
-main section:first-child .container .wrapper .col:last-child .list-number {
-  font-size: 2.5rem;
-}
-main section:first-child .container .wrapper p {
-  font-size: 1.125rem;
-}
-main section:first-child .container .wrapper p span {
-  font-weight: 700;
-}
+  color: #ffffff; }
+  main section:first-child .container a {
+    color: #ffffff;
+    text-decoration: underline; }
+  main section:first-child .container .wrapper .col:last-child .list-number {
+    font-size: 2.5rem; }
+  main section:first-child .container .wrapper p {
+    font-size: 1rem; }
+    @media (min-width: 578px) {
+      main section:first-child .container .wrapper p {
+        font-size: 1.125rem; } }
+    main section:first-child .container .wrapper p span {
+      font-weight: 700; }
 main section:first-child .find-teacher {
-  color: #ffffff;
-}
-main section:first-child .find-teacher:hover {
-  color: #c485d2;
-}
+  color: #ffffff; }
+  main section:first-child .find-teacher:hover {
+    color: #c485d2; }
 main .ellen div:first-child {
   color: #5a7c93;
-  padding: 1.5rem 0;
-}
-main .ellen div:first-child p {
-  font-size: 1.25rem;
-  padding-top: 0.5rem;
-}
+  padding: 1.5rem 0; }
+  main .ellen div:first-child p {
+    font-size: 1.25rem;
+    padding-top: .5rem; }
 main .what-is-tm div:first-child {
   font-size: 1.75rem;
-  color: #ffffff;
-}
+  color: #ffffff; }
 main .clouds div:nth-child(2) {
   font-size: 1.25rem;
-  color: #5a7c93;
-}
+  color: #5a7c93; }
 main .endorsement div:nth-child(3) {
-  color: #ffffff;
-}
-main .endorsement div:nth-child(3) p:nth-child(2) {
-  font-weight: 700;
-  font-size: 1.25rem;
-}
-main .endorsement div:nth-child(3) p:last-child {
-  font-size: 0.875rem;
-}
+  color: #ffffff; }
+  main .endorsement div:nth-child(3) p:nth-child(2) {
+    font-weight: 700;
+    font-size: 1.25rem; }
+  main .endorsement div:nth-child(3) p:last-child {
+    font-size: 0.875rem; }
 main .what-happens div:last-child {
   font-size: 1.75rem;
-  color: #ffffff;
-}
+  color: #ffffff; }
 main .daisies div:last-child {
-  font-size: 1.25rem;
-  color: #5a7c93;
-}
+  font-size: 1rem;
+  color: #5a7c93; }
+  @media (min-width: 576px) {
+    main .daisies div:last-child {
+      font-size: 1.25rem; } }
 main .mccartney .col, main .maharishi .col {
-  color: #5a7c93;
-}
-main .mccartney .col h3, main .maharishi .col h3 {
-  font-weight: 300;
-}
+  color: #5a7c93; }
+  main .mccartney .col p, main .maharishi .col p {
+    font-size: 0.875rem; }
+    @media (min-width: 576px) {
+      main .mccartney .col p, main .maharishi .col p {
+        font-size: 1rem; } }
+  main .mccartney .col h3, main .maharishi .col h3 {
+    font-weight: 300;
+    font-size: 1.25rem; }
+    @media (min-width: 576px) {
+      main .mccartney .col h3, main .maharishi .col h3 {
+        font-size: 1.75rem; } }
 main .tm-value h2 {
   color: #ffffff;
   text-align: center;
-  font-weight: 300;
-}
+  font-weight: 300; }
 main .tm-value p {
-  font-size: 1.25rem;
-  color: #5a7c93;
-}
+  font-size: 1rem;
+  color: #5a7c93; }
+  @media (min-width: 576px) {
+    main .tm-value p {
+      font-size: 1.25rem; } }
 main .benefits a {
   color: #ffffff;
   font-weight: normal;
   font-size: 0.75rem;
   text-transform: uppercase;
-  text-decoration: none;
-}
+  text-decoration: none; }
 main .maharishi a {
   color: #42bff4;
   font-weight: 700;
-  text-decoration: none;
-}
+  text-decoration: none; }
 main .take-step {
-  color: #ffffff;
-}
-main .take-step span {
-  font-weight: 700;
-}
-main .take-step span a {
-  color: #ffffff;
-  text-decoration: underline;
-}
+  color: #ffffff; }
+  main .take-step span {
+    font-weight: 700; }
+    main .take-step span a {
+      color: #ffffff;
+      text-decoration: underline; }
 main .contact-us a {
   color: #ffffff;
-  text-decoration: none;
-}
+  text-decoration: none; }
 main .faq, main .accordion {
-  color: #ffffff;
-}
+  color: #ffffff; }
+main .faq h1 {
+  font-size: 1.5rem; }
+  @media (min-width: 576px) {
+    main .faq h1 {
+      font-size: 2.5rem; } }
 main .accordion-head {
-  font-size: 1.25rem;
-}
-main .accordion-head span {
-  font-size: 1.6rem;
-}
+  font-size: 1.25rem; }
+  main .accordion-head span {
+    font-size: 1.6rem; }
 main .eu-sub-left h3 {
   color: #ffffff;
   font-weight: 300;
-  font-size: 1.75rem;
-}
+  font-size: 1.25rem; }
+  @media (min-width: 576px) {
+    main .eu-sub-left h3 {
+      font-size: 1.75rem; } }
 main .eu-sub-right {
   color: #5a7c93;
-  font-size: 1.25rem;
-}
+  font-size: 1rem; }
+  @media (min-width: 576px) {
+    main .eu-sub-right {
+      font-size: 1.25rem; } }
 main .footer-upper a {
-  color: #5a7c93;
-}
+  color: #5a7c93; }
 main .footer-upper li {
   font-weight: 300;
-  list-style: none;
-}
+  list-style: none; }
 main .footer-lower {
   font-weight: 700;
   font-size: 0.625rem;
-  color: #34384f;
-}
+  color: #34384f; }
 
 h1, h2, h3, h4 {
   font-weight: 700;
-  line-height: 1.5;
-}
+  line-height: 1.5; }
 
 header .row:nth-child(2) {
-  background-color: #9addf5;
-}
+  background-color: #9addf5; }
 
 .background-ocean {
   background: no-repeat 50% url("../assets/images/numbersbanner2.jpg");
   background-size: cover;
-  max-height: 570px;
-}
+  max-height: 570px; }
 
 .find-teacher {
-  background-color: #1c83ef;
-}
-.find-teacher:hover {
-  background-color: #dffff8;
-}
+  background-color: #1c83ef; }
+  .find-teacher:hover {
+    background-color: #dffff8; }
 
 .ellen div:first-child {
-  background-color: #ebf8fc;
-}
+  background-color: #ebf8fc; }
 .ellen div:last-child a {
-  background: no-repeat url("../assets/images/ellenShow.jpg");
-  background-size: contain;
+  background: no-repeat center url("../assets/images/ellenShow.jpg");
+  background-size: cover;
   width: 100%;
-  height: 100%;
-  display: block;
-}
+  height: 230px;
+  display: block; }
+  @media (min-width: 576px) {
+    .ellen div:last-child a {
+      height: 100%; } }
 
 .what-is-tm div:first-child {
   background-color: #42bff4;
-  height: 300px;
-}
+  height: 170px; }
+  @media (min-width: 576px) {
+    .what-is-tm div:first-child {
+      height: 300px; } }
 .what-is-tm div:nth-child(2) {
   background: no-repeat url("../assets/images/tmHome.jpg");
-  background-size: cover;
-}
+  background-size: cover; }
 
 .clouds div:first-child {
-  background-color: #7ed2f5;
-}
+  background-color: #7ed2f5; }
 .clouds div:nth-child(2) {
-  background: no-repeat 10% 0 url("../assets/images/arrow-content-down.png");
-}
+  background: no-repeat 10% 0 url("../assets/images/arrow-content-down.png"); }
 .clouds div:last-child {
-  background: no-repeat url("../assets/images/background25_560x560.jpg");
-}
+  background: no-repeat url("../assets/images/background25_560x560.jpg"); }
 
 .endorsement div:nth-child(2) {
-  height: 300px;
-}
-.endorsement div:nth-child(2) a {
-  background: no-repeat url("../assets/images/cameron.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
+  height: 375px; }
+  @media (min-width: 576px) {
+    .endorsement div:nth-child(2) {
+      height: 300px; } }
+  .endorsement div:nth-child(2) a {
+    background: no-repeat url("../assets/images/cameron.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block; }
 .endorsement div:nth-child(3) {
-  background-color: #acbcc7;
-}
+  background-color: #acbcc7; }
 .endorsement div:nth-child(4) {
-  background-color: #7ed2f5;
-}
+  background-color: #7ed2f5; }
 
 .what-happens div:first-child {
   background-color: #7ed2f5;
-  height: 300px;
-}
+  height: 170px; }
+  @media (min-width: 576px) {
+    .what-happens div:first-child {
+      height: 300px; } }
 .what-happens div:last-child {
   background-color: #4e99f0;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .daisies .daisies-bg {
   background: no-repeat url("../assets/images/daisies_1000x500.jpg");
   background-size: cover;
-}
+  height: 310px; }
+  @media (min-width: 992px) {
+    .daisies .daisies-bg {
+      height: 280.38px; } }
+  @media (min-width: 1200px) {
+    .daisies .daisies-bg {
+      height: 250.38px; } }
 .daisies div:last-child {
-  background: no-repeat 50% 0 url("../assets/images/arrow-content-down.png");
-}
+  background: no-repeat 50% 0 url("../assets/images/arrow-content-down.png"); }
 
 .mccartney, .maharishi {
-  background-color: #ebf8fc;
-}
-.mccartney p, .maharishi p {
-  background: no-repeat 50% 100% url("../assets/images/bg-quote.gif");
-  display: block;
-}
+  background-color: #ebf8fc; }
+  .mccartney p, .maharishi p {
+    background: no-repeat 50% 100% url("../assets/images/bg-quote.gif");
+    display: block; }
 
 .tm-value div:first-child {
   background-color: #7ed2f5;
-  height: 300px;
-}
+  height: 184px; }
+  @media (min-width: 576px) {
+    .tm-value div:first-child {
+      height: 300px; } }
 .tm-value div:last-child {
-  background: none;
-}
-.tm-value div:last-child .arrow-left {
-  background: no-repeat 0 50% url("../assets/images/arrow-content-left.png");
-}
+  background: none; }
+  .tm-value div:last-child .arrow-left {
+    background: none; }
+    @media (min-width: 576px) {
+      .tm-value div:last-child .arrow-left {
+        background: no-repeat 0 50% url("../assets/images/arrow-content-left.png"); } }
 
 .benefits {
-  background-color: #4e99f0;
-  height: 300px;
-}
+  background-color: #4e99f0; }
 
 .take-step {
   background-color: #42bef4;
-}
+  min-height: 170px; }
 
 .contact-us {
-  background-color: #1c83ef;
-}
+  background-color: #1c83ef; }
 
 .faq, .accordion {
-  background-color: #4e99f0;
-}
+  background-color: #4e99f0; }
 
 .eu-sub-left {
   background-color: #42bef4;
-}
+  min-height: 170px; }
 
 .footer-upper {
-  background-color: #ebf8fc;
-}
+  background-color: #ebf8fc; }
 
 .footer-lower {
-  background-color: #42bff4;
-}
+  background-color: #42bff4; }
 
 /*# sourceMappingURL=styles.css.map */

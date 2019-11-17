@@ -120,10 +120,8 @@ main .what-happens div:last-child {
 main .daisies, main .tm-value {
   align-items: center;
 }
-main .daisies div div, main .tm-value div div {
-  padding: 2.2rem 3.1rem;
-}
 main .daisies div div p, main .tm-value div div p {
+  padding: 2.2rem 3.1rem;
   margin-bottom: 0;
 }
 main .mccartney, main .maharishi {
@@ -436,11 +434,10 @@ header .row:nth-child(2) {
 
 .ellen div:first-child {
   background-color: #ebf8fc;
-  max-height: 305px;
 }
 .ellen div:last-child a {
   background: no-repeat url("../assets/images/ellenShow.jpg");
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   height: 100%;
   display: block;
@@ -460,7 +457,6 @@ header .row:nth-child(2) {
 }
 .clouds div:nth-child(2) {
   background: no-repeat 10% 0 url("../assets/images/arrow-content-down.png");
-  height: 300px;
 }
 .clouds div:last-child {
   background: no-repeat url("../assets/images/background25_560x560.jpg");
@@ -492,10 +488,9 @@ header .row:nth-child(2) {
   background-size: cover;
 }
 
-.daisies div:first-child {
+.daisies .daisies-bg {
   background: no-repeat url("../assets/images/daisies_1000x500.jpg");
   background-size: cover;
-  height: 300px;
 }
 .daisies div:last-child {
   background: no-repeat 50% 0 url("../assets/images/arrow-content-down.png");

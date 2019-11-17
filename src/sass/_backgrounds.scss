@@ -1,10 +1,5 @@
 @import "colors";
 
-.maharishi-logo {
-  background: no-repeat right url("../assets/images/maharishi-logov2.png");
-  background-size: contain;
-}
-
 header .row:nth-child(2) {
   background-color: $color__turquoise-blue;
 }
@@ -132,18 +127,23 @@ header .row:nth-child(2) {
 .take-step {
   background-color: $color__summer-sky;
 }
+
 .contact-us {
   background-color: $color__near-dodger-blue;
 }
+
 .faq, .accordion {
   background-color: $color__chrome-blue;
 }
+
 .eu-sub-left {
   background-color: $color__summer-sky;
 }
+
 .footer-upper {
   background-color: $color__alice-blue;
 }
+
 .footer-lower {
   background-color: $color__medium-cyan;
 }

@@ -4,13 +4,6 @@
   max-width: 1200px;
 }
 
-.header-upper {
-  padding: 4px 30px;
-  .row {
-    padding: 0 15px;
-  }
-}
-
 header {
   text-align: right;
   a {
@@ -19,17 +12,30 @@ header {
       text-decoration: underline;
     }
   }
+  .header-upper {
+    padding: 4px 30px;
+    .row {
+      padding: 0;
+      @media (min-height: 767.98px) {
+        padding: 0 1rem;
+      }
+    }
+  }
+  .header-flag {
+    text-align: right;
+    @media (min-width: 767.98px) {
+      text-align: center;
+    }
+  }
+  .maharishi-logo {
+    text-align: left;
+    @media (min-width: 767.98px) {
+      text-align: center;
+    }
+  }
 }
 
-.maharishi-logo {
-  padding: 15px 50px 15px 0;
-  min-height: 21px;
-}
-
-.header-flag:before {
-  content: url("../assets/images/ukFlag.png");
-}
-
+// Navigation
 .navbar-collapse {
   justify-content: flex-end;
 }
@@ -42,9 +48,24 @@ header {
   }
 }
 
+// Dropdown menu on hover
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+// Dropdown menu style
+.dropdown-menu {
+  border-radius: 0;
+  padding: 0;
+}
+
 main {
   section:first-child {
     .container {
+      //Full width bg content wrapper
       .wrapper {
         h1 {
           margin-bottom: 1rem;
@@ -54,7 +75,7 @@ main {
           padding: 1rem 0;
           margin: 0 0 0 -3rem;
         }
-        .list-decimal {
+        .list-number {
           align-self: center;
         }
       }

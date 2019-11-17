@@ -1,17 +1,23 @@
 @import "typography";
 
+// Default text color and Font
 .container-fluid {
   font-family: $font-family-body;
+  color: $color__text-body-medium;
 }
 
-header a, .nav-item a {
+header, header a {
   color: $color__text-body-dark;
 }
 
-header .row .row:first-child {
-  font-size: $font-size__small;
+.header-upper {
+  font-size: .7rem;
+  @media (min-width: 767.98px) {
+    font-size: $font-size__small;
+  }
 }
 
+// Header TM Logo
 .navbar-brand {
   div {
     max-width: 215px;
@@ -21,11 +27,43 @@ header .row .row:first-child {
   }
 }
 
+// Nav Links
 .nav-item a{
-  font-size: 1rem;
-  font-weight: bold;
+  @media (min-width: 1080px) {
+    font-size: $font-size__normal;
+  }
+  @media (min-width: 578px) {
+    font-size: $font-size__small;
+  }
+
+
+  font-weight: $font-weight__bold;
+  &:hover{
+    color: $color__greyskull;
+  }
 }
 
+// Dropdown style
+.dropdown-menu{
+  .dropdown-item {
+    font-weight: $font-weight__thinner;
+    color: $color__white;
+    background-color: $color__near-dodger-blue;
+    &:hover {
+      color: $color__white;
+      background-color: #004C80;
+    }
+    &:focus {
+      color: $color__white;
+      background-color: lighten(#004C80, 10%);
+    }
+  }
+  .dropdown-item:nth-child(n+2):nth-child(-n+5) {
+    border-top: 1px solid $color__white;
+  }
+}
+
+// Main Typography
 main {
   section:first-child {
     .container {
@@ -36,7 +74,7 @@ main {
       }
       .wrapper {
         .col:last-child {
-          .list-decimal {
+          .list-number {
             font-size: 2.5rem;
           }
         }

@@ -115,9 +115,10 @@ main {
       color: $color__cyan-blue;
     }
   }
-  .endorsement {
-    div:nth-child(3) {
+  .endorsement, .inner-page-1-endorsement {
+    div:nth-child(3), .play-button-col, a {
       color: $color__white;
+      text-decoration: none;
       p:nth-child(2) {
         font-weight: $font-weight__bold;
         font-size: $font-size__large;
@@ -215,12 +216,12 @@ main {
       }
     }
   }
-  .accordion-head {
-    font-size: $font-size__large;
-    span {
-      font-size: 1.6rem;
-    }
-  }
+  //.accordion-head {
+  //  font-size: $font-size__large;
+  //  span {
+  //    font-size: 1.6rem;
+  //  }
+  //}
   .eu-sub-left {
     h3 {
       color: $color__white;
@@ -259,3 +260,50 @@ h1, h2, h3, h4 {
   line-height: 1.5;
 }
 
+//innerPage1
+.gradient {
+  color: $color__white;
+}
+
+.included {
+  color: $color__summer-sky;
+  h2 {
+    font-weight: $font-weight__thinner;
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.65rem;
+  }
+  i {
+    color: $color__chrome-blue;
+    font-size: 1.3rem;
+    padding: 0 0 .5rem 1rem;
+  }
+}
+
+.offer {
+  color: $color__white;
+  font-size: $font-size__medium;
+  h1 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 1.65rem;
+  }
+  .right-col {
+    p {
+      color: $color__cyan-blue;
+    }
+  }
+}
+
+.helping-people {
+  color: $color__white;
+  font-size: $font-size__medium;
+  a {
+    font-weight: $font-weight__bold;
+  }
+  h3 {
+    font-size: 1.65rem;
+  }
+}

@@ -1,4 +1,5 @@
 @import "colors";
+@import "elements";
 
 .container-fluid {
   padding-right: 0;
@@ -126,17 +127,17 @@ main {
   }
   .clouds {
     div:nth-child(2) {
-      padding: 1.25rem 1.5rem;
+      padding: $padding__content;
       @media (min-width: 992px) {
-        padding: 2.2rem 3.1rem;
+        padding: $padding__content-lg;
       }
       p {
       margin-bottom: 0;
       }
     }
   }
-  .endorsement {
-    div:nth-child(3) {
+  .endorsement, .inner-page-1-endorsement {
+    div:nth-child(3), .play-button-col {
       padding: 1.25rem 1rem;
       text-align: center;
       .wrapper {
@@ -161,11 +162,11 @@ main {
         padding: 1.25rem .7rem;
         text-align: center;
         @media (min-width: 992px) {
-          padding: 1.25rem 1.5rem;
+          padding: $padding__content;
           text-align: left;
         }
         @media (min-width: 992px) {
-          padding: 2.2rem 3.1rem;
+          padding: $padding__content-lg;
         }
         margin-bottom: 0;
       }
@@ -183,9 +184,9 @@ main {
       margin-bottom: 0;
     }
     .col {
-      padding: 1.25rem 1.5rem;
+      padding: $padding__content;
       @media (min-width: 992px) {
-        padding: 2.2rem 3.1rem;
+        padding: $padding__content-lg;
       }
     }
   }
@@ -210,7 +211,7 @@ main {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 2.2rem 3.1rem;
+    padding: $padding__content-lg;
     h1 {
       font-size: 1.5rem;
       @media (min-width: 576px) {
@@ -234,19 +235,19 @@ main {
       margin-bottom: 1rem;
     }
   }
-  .accordion-container {
-    width: 100%;
-  }
-  .accordion-head {
-    width: 100%;
-    padding:  5px 10px;
-    margin-left: 1rem;
-    border-top: 1px solid $color__white;
-    span {
-      float: right;
-      padding-right: 1rem;
-    }
-  }
+  //.accordion-container {
+  //  width: 100%;
+  //}
+  //.accordion-head {
+  //  width: 100%;
+  //  padding:  5px 10px;
+  //  margin-left: 1rem;
+  //  border-top: 1px solid $color__white;
+  //  span {
+  //    float: right;
+  //    padding-right: 1rem;
+  //  }
+  //}
   .eu-sub-left {
     div {
       height: 100%;
@@ -310,4 +311,20 @@ main {
     content: url("../assets/images/ukFlag.png");
     padding-left: 0.4rem;
   }
+}
+
+//innerPage1
+.gradient {
+  text-align: center;
+}
+
+.included, .left-col>.row>.col, .right-col>.row>.col, .helping-people .row .col {
+  padding: $padding__content;
+  @media (min-width: 992px) {
+    padding: $padding__content-lg;
+  }
+}
+
+.included {
+  text-align: center;
 }

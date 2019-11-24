@@ -93,14 +93,14 @@ main .clouds div:nth-child(2) {
       padding: 2.2rem 3.1rem; } }
   main .clouds div:nth-child(2) p {
     margin-bottom: 0; }
-main .endorsement div:nth-child(3) {
+main .endorsement div:nth-child(3), main .endorsement .play-button-col, main .inner-page-1-endorsement div:nth-child(3), main .inner-page-1-endorsement .play-button-col {
   padding: 1.25rem 1rem;
   text-align: center; }
-  main .endorsement div:nth-child(3) .wrapper {
+  main .endorsement div:nth-child(3) .wrapper, main .endorsement .play-button-col .wrapper, main .inner-page-1-endorsement div:nth-child(3) .wrapper, main .inner-page-1-endorsement .play-button-col .wrapper {
     justify-content: center;
     margin: auto;
     padding: 0.7rem 0; }
-    main .endorsement div:nth-child(3) .wrapper .play-button {
+    main .endorsement div:nth-child(3) .wrapper .play-button, main .endorsement .play-button-col .wrapper .play-button, main .inner-page-1-endorsement div:nth-child(3) .wrapper .play-button, main .inner-page-1-endorsement .play-button-col .wrapper .play-button {
       margin-bottom: .7rem; }
 main .what-happens div:last-child {
   text-align: center; }
@@ -166,16 +166,6 @@ main .faq {
         margin-top: 0; } }
   main .faq .arrow-down {
     margin-bottom: 1rem; }
-main .accordion-container {
-  width: 100%; }
-main .accordion-head {
-  width: 100%;
-  padding: 5px 10px;
-  margin-left: 1rem;
-  border-top: 1px solid #ffffff; }
-  main .accordion-head span {
-    float: right;
-    padding-right: 1rem; }
 main .eu-sub-left div {
   height: 100%;
   align-items: center;
@@ -224,6 +214,18 @@ main .footer-lower {
 main .flag:after {
   content: url("../assets/images/ukFlag.png");
   padding-left: 0.4rem; }
+
+.gradient {
+  text-align: center; }
+
+.included, .left-col > .row > .col, .right-col > .row > .col, .helping-people .row .col {
+  padding: 1.25rem 1.5rem; }
+  @media (min-width: 992px) {
+    .included, .left-col > .row > .col, .right-col > .row > .col, .helping-people .row .col {
+      padding: 2.2rem 3.1rem; } }
+
+.included {
+  text-align: center; }
 
 .container-fluid {
   font-family: "Raleway", sans-serif;
@@ -295,12 +297,13 @@ main .what-is-tm div:first-child {
 main .clouds div:nth-child(2) {
   font-size: 1.25rem;
   color: #5a7c93; }
-main .endorsement div:nth-child(3) {
-  color: #ffffff; }
-  main .endorsement div:nth-child(3) p:nth-child(2) {
+main .endorsement div:nth-child(3), main .endorsement .play-button-col, main .endorsement a, main .inner-page-1-endorsement div:nth-child(3), main .inner-page-1-endorsement .play-button-col, main .inner-page-1-endorsement a {
+  color: #ffffff;
+  text-decoration: none; }
+  main .endorsement div:nth-child(3) p:nth-child(2), main .endorsement .play-button-col p:nth-child(2), main .endorsement a p:nth-child(2), main .inner-page-1-endorsement div:nth-child(3) p:nth-child(2), main .inner-page-1-endorsement .play-button-col p:nth-child(2), main .inner-page-1-endorsement a p:nth-child(2) {
     font-weight: 700;
     font-size: 1.25rem; }
-  main .endorsement div:nth-child(3) p:last-child {
+  main .endorsement div:nth-child(3) p:last-child, main .endorsement .play-button-col p:last-child, main .endorsement a p:last-child, main .inner-page-1-endorsement div:nth-child(3) p:last-child, main .inner-page-1-endorsement .play-button-col p:last-child, main .inner-page-1-endorsement a p:last-child {
     font-size: 0.875rem; }
 main .what-happens div:last-child {
   font-size: 1.75rem;
@@ -361,10 +364,6 @@ main .faq h1 {
   @media (min-width: 576px) {
     main .faq h1 {
       font-size: 2.5rem; } }
-main .accordion-head {
-  font-size: 1.25rem; }
-  main .accordion-head span {
-    font-size: 1.6rem; }
 main .eu-sub-left h3 {
   color: #ffffff;
   font-weight: 300;
@@ -391,6 +390,39 @@ main .footer-lower {
 h1, h2, h3, h4 {
   font-weight: 700;
   line-height: 1.5; }
+
+.gradient {
+  color: #ffffff; }
+
+.included {
+  color: #42bef4; }
+  .included h2 {
+    font-weight: 300;
+    font-size: 1.8rem; }
+  .included h3 {
+    font-size: 1.65rem; }
+  .included i {
+    color: #4e99f0;
+    font-size: 1.3rem;
+    padding: 0 0 .5rem 1rem; }
+
+.offer {
+  color: #ffffff;
+  font-size: 1.125rem; }
+  .offer h1 {
+    font-size: 2.2rem; }
+  .offer h3 {
+    font-size: 1.65rem; }
+  .offer .right-col p {
+    color: #5a7c93; }
+
+.helping-people {
+  color: #ffffff;
+  font-size: 1.125rem; }
+  .helping-people a {
+    font-weight: 700; }
+  .helping-people h3 {
+    font-size: 1.65rem; }
 
 header .row:nth-child(2) {
   background-color: #9addf5; }
@@ -432,7 +464,8 @@ header .row:nth-child(2) {
 .clouds div:nth-child(2) {
   background: no-repeat 10% 0 url("../assets/images/arrow-content-down.png"); }
 .clouds div:last-child {
-  background: no-repeat url("../assets/images/background25_560x560.jpg"); }
+  background: no-repeat url("../assets/images/background25_560x560.jpg");
+  background-size: cover; }
 
 .endorsement div:nth-child(2) {
   height: 375px; }
@@ -463,13 +496,13 @@ header .row:nth-child(2) {
 .daisies .daisies-bg {
   background: no-repeat url("../assets/images/daisies_1000x500.jpg");
   background-size: cover;
-  height: 310px; }
+  height: 460px; }
   @media (min-width: 992px) {
     .daisies .daisies-bg {
-      height: 280.38px; } }
+      height: 430.38px; } }
   @media (min-width: 1200px) {
     .daisies .daisies-bg {
-      height: 250.38px; } }
+      height: 400.38px; } }
 .daisies div:last-child {
   background: no-repeat 50% 0 url("../assets/images/arrow-content-down.png"); }
 
@@ -515,5 +548,43 @@ header .row:nth-child(2) {
 
 .footer-lower {
   background-color: #42bff4; }
+
+.gradient {
+  background: no-repeat 50% url("../assets/images/innerPage1/TM-Course-Fee_Ban.jpg");
+  background-size: cover;
+  height: 470px; }
+
+.included {
+  background-color: #ebf8fc; }
+
+.left-col {
+  background-color: #4e99f0; }
+
+.right-col {
+  background-color: #7ed2f5; }
+  .right-col div:nth-child(2) {
+    background-color: #42bff4; }
+
+.inner-page-1-endorsement .star-photo {
+  height: 322px; }
+  @media (min-width: 576px) {
+    .inner-page-1-endorsement .star-photo {
+      height: 331px; } }
+  @media (min-width: 992px) {
+    .inner-page-1-endorsement .star-photo {
+      height: 272px; } }
+  .inner-page-1-endorsement .star-photo a {
+    background: no-repeat url("../assets/images/innerPage1/TMCoursefee-Healing-560px.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: block; }
+    @media (min-width: 992px) {
+      .inner-page-1-endorsement .star-photo a {
+        background-size: cover; } }
+.inner-page-1-endorsement .play-button-col {
+  background-color: #acbcc7; }
+.inner-page-1-endorsement .helping-people {
+  background-color: #4e99f0; }
 
 /*# sourceMappingURL=styles.css.map */

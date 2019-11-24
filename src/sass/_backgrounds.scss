@@ -58,6 +58,7 @@ header .row:nth-child(2) {
   }
   div:last-child {
     background: no-repeat url("../assets/images/background25_560x560.jpg");
+    background-size: cover;
   }
 }
 
@@ -101,12 +102,12 @@ header .row:nth-child(2) {
   .daisies-bg {
       background: no-repeat url("../assets/images/daisies_1000x500.jpg");
       background-size: cover;
-      height: 310px;
+      height: 460px;
       @media (min-width: 992px) {
-        height: 280.38px;
+        height: 430.38px;
       }
       @media (min-width: 1200px) {
-        height: 250.38px;
+        height: 400.38px;
       }
   }
   div:last-child {
@@ -170,4 +171,55 @@ header .row:nth-child(2) {
 
 .footer-lower {
   background-color: $color__medium-cyan;
+}
+
+//innerPage1
+
+.gradient {
+  background: no-repeat 50% url("../assets/images/innerPage1/TM-Course-Fee_Ban.jpg");
+  background-size: cover;
+  height: 470px;
+}
+
+.included {
+  background-color: $color__alice-blue;
+}
+
+.left-col {
+  background-color:$color__chrome-blue;
+}
+
+.right-col {
+  background-color: $color__light-sky;
+  div:nth-child(2) {
+    background-color:$color__medium-cyan;
+  }
+}
+
+.inner-page-1-endorsement {
+  .star-photo {
+    height: 322px;
+    @media (min-width: 576px) {
+      height: 331px;
+    }
+    @media (min-width: 992px) {
+      height: 272px;
+    }
+    a {
+      background: no-repeat url("../assets/images/innerPage1/TMCoursefee-Healing-560px.jpg");
+      background-size: contain;
+      @media (min-width: 992px) {
+        background-size: cover;
+      }
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+  .play-button-col {
+    background-color: $color__heather;
+  }
+  .helping-people {
+    background-color: $color__chrome-blue;
+  }
 }

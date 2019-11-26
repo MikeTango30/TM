@@ -115,7 +115,7 @@ main {
       color: $color__cyan-blue;
     }
   }
-  .endorsement, .inner-page-1-endorsement {
+  .endorsement, .inner-page-endorsement-1, .inner-page-endorsement-2 {
     div:nth-child(3), .play-button-col, a {
       color: $color__white;
       text-decoration: none;
@@ -143,7 +143,7 @@ main {
       color: $color__cyan-blue;
     }
   }
-  .mccartney, .maharishi {
+  .star-quote, .maharishi {
     .col {
       color: $color__cyan-blue;
       p {
@@ -261,7 +261,7 @@ h1, h2, h3, h4 {
 }
 
 //innerPage1
-.gradient {
+.gradient, .luck {
   color: $color__white;
 }
 
@@ -305,5 +305,32 @@ h1, h2, h3, h4 {
   }
   h3 {
     font-size: 1.65rem;
+  }
+}
+
+.light-blue-paragraph, .graphs .left-col {
+  h1 {
+    color: $color__white;
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: $font-size__large;
+  }
+}
+
+.graphs {
+  .left-col {
+    p {
+      color: $color__cyan-blue;
+    }
+  }
+  .right-col {
+    h3 {
+      color: $color__celestial-blue;
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: $font-size__small;
+    }
   }
 }

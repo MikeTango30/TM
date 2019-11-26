@@ -93,14 +93,14 @@ main .clouds div:nth-child(2) {
       padding: 2.2rem 3.1rem; } }
   main .clouds div:nth-child(2) p {
     margin-bottom: 0; }
-main .endorsement div:nth-child(3), main .endorsement .play-button-col, main .inner-page-1-endorsement div:nth-child(3), main .inner-page-1-endorsement .play-button-col {
+main .endorsement div:nth-child(3), main .endorsement .play-button-col, main .inner-page-endorsement-1 div:nth-child(3), main .inner-page-endorsement-1 .play-button-col, main .inner-page-endorsement-2 div:nth-child(3), main .inner-page-endorsement-2 .play-button-col {
   padding: 1.25rem 1rem;
   text-align: center; }
-  main .endorsement div:nth-child(3) .wrapper, main .endorsement .play-button-col .wrapper, main .inner-page-1-endorsement div:nth-child(3) .wrapper, main .inner-page-1-endorsement .play-button-col .wrapper {
+  main .endorsement div:nth-child(3) .wrapper, main .endorsement .play-button-col .wrapper, main .inner-page-endorsement-1 div:nth-child(3) .wrapper, main .inner-page-endorsement-1 .play-button-col .wrapper, main .inner-page-endorsement-2 div:nth-child(3) .wrapper, main .inner-page-endorsement-2 .play-button-col .wrapper {
     justify-content: center;
     margin: auto;
     padding: 0.7rem 0; }
-    main .endorsement div:nth-child(3) .wrapper .play-button, main .endorsement .play-button-col .wrapper .play-button, main .inner-page-1-endorsement div:nth-child(3) .wrapper .play-button, main .inner-page-1-endorsement .play-button-col .wrapper .play-button {
+    main .endorsement div:nth-child(3) .wrapper .play-button, main .endorsement .play-button-col .wrapper .play-button, main .inner-page-endorsement-1 div:nth-child(3) .wrapper .play-button, main .inner-page-endorsement-1 .play-button-col .wrapper .play-button, main .inner-page-endorsement-2 div:nth-child(3) .wrapper .play-button, main .inner-page-endorsement-2 .play-button-col .wrapper .play-button {
       margin-bottom: .7rem; }
 main .what-happens div:last-child {
   text-align: center; }
@@ -117,19 +117,19 @@ main .daisies, main .tm-value {
     @media (min-width: 992px) {
       main .daisies div div p, main .tm-value div div p {
         padding: 2.2rem 3.1rem; } }
-main .mccartney, main .maharishi {
+main .star-quote, main .maharishi {
   align-items: center;
   text-align: center;
   justify-content: center; }
-  main .mccartney h3, main .maharishi h3 {
+  main .star-quote h3, main .maharishi h3 {
     padding-bottom: 0.75rem; }
-  main .mccartney p, main .maharishi p {
+  main .star-quote p, main .maharishi p {
     padding: 1rem 0;
     margin-bottom: 0; }
-  main .mccartney .col, main .maharishi .col {
+  main .star-quote .col, main .maharishi .col {
     padding: 1.25rem 1.5rem; }
     @media (min-width: 992px) {
-      main .mccartney .col, main .maharishi .col {
+      main .star-quote .col, main .maharishi .col {
         padding: 2.2rem 3.1rem; } }
 main .benefits {
   width: 100%;
@@ -215,7 +215,7 @@ main .flag:after {
   content: url("../assets/images/ukFlag.png");
   padding-left: 0.4rem; }
 
-.gradient {
+.gradient, .luck {
   text-align: center; }
 
 .included, .left-col > .row > .col, .right-col > .row > .col, .helping-people .row .col {
@@ -226,6 +226,19 @@ main .flag:after {
 
 .included {
   text-align: center; }
+
+.light-blue-paragraph {
+  text-align: center;
+  padding: 1.25rem 1.5rem; }
+  @media (min-width: 992px) {
+    .light-blue-paragraph {
+      padding: 2.2rem 3.1rem; } }
+
+.graphs {
+  text-align: center; }
+
+img {
+  max-width: 100%; }
 
 .container-fluid {
   font-family: "Raleway", sans-serif;
@@ -297,13 +310,13 @@ main .what-is-tm div:first-child {
 main .clouds div:nth-child(2) {
   font-size: 1.25rem;
   color: #5a7c93; }
-main .endorsement div:nth-child(3), main .endorsement .play-button-col, main .endorsement a, main .inner-page-1-endorsement div:nth-child(3), main .inner-page-1-endorsement .play-button-col, main .inner-page-1-endorsement a {
+main .endorsement div:nth-child(3), main .endorsement .play-button-col, main .endorsement a, main .inner-page-endorsement-1 div:nth-child(3), main .inner-page-endorsement-1 .play-button-col, main .inner-page-endorsement-1 a, main .inner-page-endorsement-2 div:nth-child(3), main .inner-page-endorsement-2 .play-button-col, main .inner-page-endorsement-2 a {
   color: #ffffff;
   text-decoration: none; }
-  main .endorsement div:nth-child(3) p:nth-child(2), main .endorsement .play-button-col p:nth-child(2), main .endorsement a p:nth-child(2), main .inner-page-1-endorsement div:nth-child(3) p:nth-child(2), main .inner-page-1-endorsement .play-button-col p:nth-child(2), main .inner-page-1-endorsement a p:nth-child(2) {
+  main .endorsement div:nth-child(3) p:nth-child(2), main .endorsement .play-button-col p:nth-child(2), main .endorsement a p:nth-child(2), main .inner-page-endorsement-1 div:nth-child(3) p:nth-child(2), main .inner-page-endorsement-1 .play-button-col p:nth-child(2), main .inner-page-endorsement-1 a p:nth-child(2), main .inner-page-endorsement-2 div:nth-child(3) p:nth-child(2), main .inner-page-endorsement-2 .play-button-col p:nth-child(2), main .inner-page-endorsement-2 a p:nth-child(2) {
     font-weight: 700;
     font-size: 1.25rem; }
-  main .endorsement div:nth-child(3) p:last-child, main .endorsement .play-button-col p:last-child, main .endorsement a p:last-child, main .inner-page-1-endorsement div:nth-child(3) p:last-child, main .inner-page-1-endorsement .play-button-col p:last-child, main .inner-page-1-endorsement a p:last-child {
+  main .endorsement div:nth-child(3) p:last-child, main .endorsement .play-button-col p:last-child, main .endorsement a p:last-child, main .inner-page-endorsement-1 div:nth-child(3) p:last-child, main .inner-page-endorsement-1 .play-button-col p:last-child, main .inner-page-endorsement-1 a p:last-child, main .inner-page-endorsement-2 div:nth-child(3) p:last-child, main .inner-page-endorsement-2 .play-button-col p:last-child, main .inner-page-endorsement-2 a p:last-child {
     font-size: 0.875rem; }
 main .what-happens div:last-child {
   font-size: 1.75rem;
@@ -314,18 +327,18 @@ main .daisies div:last-child {
   @media (min-width: 576px) {
     main .daisies div:last-child {
       font-size: 1.25rem; } }
-main .mccartney .col, main .maharishi .col {
+main .star-quote .col, main .maharishi .col {
   color: #5a7c93; }
-  main .mccartney .col p, main .maharishi .col p {
+  main .star-quote .col p, main .maharishi .col p {
     font-size: 0.875rem; }
     @media (min-width: 576px) {
-      main .mccartney .col p, main .maharishi .col p {
+      main .star-quote .col p, main .maharishi .col p {
         font-size: 1rem; } }
-  main .mccartney .col h3, main .maharishi .col h3 {
+  main .star-quote .col h3, main .maharishi .col h3 {
     font-weight: 300;
     font-size: 1.25rem; }
     @media (min-width: 576px) {
-      main .mccartney .col h3, main .maharishi .col h3 {
+      main .star-quote .col h3, main .maharishi .col h3 {
         font-size: 1.75rem; } }
 main .tm-value h2 {
   color: #ffffff;
@@ -391,7 +404,7 @@ h1, h2, h3, h4 {
   font-weight: 700;
   line-height: 1.5; }
 
-.gradient {
+.gradient, .luck {
   color: #ffffff; }
 
 .included {
@@ -423,6 +436,20 @@ h1, h2, h3, h4 {
     font-weight: 700; }
   .helping-people h3 {
     font-size: 1.65rem; }
+
+.light-blue-paragraph h1, .graphs .left-col h1 {
+  color: #ffffff;
+  font-size: 2.2rem; }
+.light-blue-paragraph p, .graphs .left-col p {
+  font-size: 1.25rem; }
+
+.graphs .left-col p {
+  color: #5a7c93; }
+.graphs .right-col h3 {
+  color: #4c90db;
+  font-size: 1.2rem; }
+.graphs .right-col p {
+  font-size: 0.875rem; }
 
 header .row:nth-child(2) {
   background-color: #9addf5; }
@@ -506,9 +533,9 @@ header .row:nth-child(2) {
 .daisies div:last-child {
   background: no-repeat 50% 0 url("../assets/images/arrow-content-down.png"); }
 
-.mccartney, .maharishi {
+.star-quote, .maharishi {
   background-color: #ebf8fc; }
-  .mccartney p, .maharishi p {
+  .star-quote p, .maharishi p {
     background: no-repeat 50% 100% url("../assets/images/bg-quote.gif");
     display: block; }
 
@@ -557,34 +584,80 @@ header .row:nth-child(2) {
 .included {
   background-color: #ebf8fc; }
 
-.left-col {
+.offer .left-col {
   background-color: #4e99f0; }
-
-.right-col {
+.offer .right-col {
   background-color: #7ed2f5; }
-  .right-col div:nth-child(2) {
+  .offer .right-col div:nth-child(2) {
     background-color: #42bff4; }
 
-.inner-page-1-endorsement .star-photo {
+.inner-page-endorsement-1 .star-photo, .inner-page-endorsement-2 .star-photo {
   height: 322px; }
   @media (min-width: 576px) {
-    .inner-page-1-endorsement .star-photo {
+    .inner-page-endorsement-1 .star-photo, .inner-page-endorsement-2 .star-photo {
       height: 331px; } }
   @media (min-width: 992px) {
-    .inner-page-1-endorsement .star-photo {
+    .inner-page-endorsement-1 .star-photo, .inner-page-endorsement-2 .star-photo {
       height: 272px; } }
-  .inner-page-1-endorsement .star-photo a {
+  .inner-page-endorsement-1 .star-photo a, .inner-page-endorsement-2 .star-photo a {
     background: no-repeat url("../assets/images/innerPage1/TMCoursefee-Healing-560px.jpg");
     background-size: contain;
     width: 100%;
     height: 100%;
     display: block; }
     @media (min-width: 992px) {
-      .inner-page-1-endorsement .star-photo a {
+      .inner-page-endorsement-1 .star-photo a, .inner-page-endorsement-2 .star-photo a {
         background-size: cover; } }
-.inner-page-1-endorsement .play-button-col {
+  .inner-page-endorsement-1 .star-photo.hugh a, .inner-page-endorsement-2 .star-photo.hugh a {
+    background: no-repeat url("../assets/images/innerPage2/Happiness--hugh-520px.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: block; }
+    @media (min-width: 992px) {
+      .inner-page-endorsement-1 .star-photo.hugh a, .inner-page-endorsement-2 .star-photo.hugh a {
+        background-size: cover; } }
+  .inner-page-endorsement-1 .star-photo.katy a, .inner-page-endorsement-2 .star-photo.katy a {
+    background: no-repeat url("../assets/images/innerPage2/Happiness-katy-perry-520px.jpg");
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: block; }
+    @media (min-width: 992px) {
+      .inner-page-endorsement-1 .star-photo.katy a, .inner-page-endorsement-2 .star-photo.katy a {
+        background-size: cover; } }
+.inner-page-endorsement-1 .play-button-col, .inner-page-endorsement-2 .play-button-col {
   background-color: #acbcc7; }
-.inner-page-1-endorsement .helping-people {
+.inner-page-endorsement-1 .helping-people, .inner-page-endorsement-2 .helping-people {
   background-color: #4e99f0; }
+
+.luck {
+  background: no-repeat 50% url("../assets/images/innerPage2/TM-Benefits-Happiness-peace-meditation-2000x570jpg.jpg");
+  background-size: cover;
+  height: 470px; }
+
+.light-blue-paragraph {
+  background-color: #7ed2f5; }
+
+.graphs .left-col .row:first-child {
+  background-color: #42bef4;
+  height: 270px; }
+.graphs .left-col .row:last-child {
+  background-color: #ffffff;
+  height: 270px; }
+.graphs .right-col .arrow-right {
+  background: none; }
+  @media (min-width: 576px) {
+    .graphs .right-col .arrow-right {
+      background: no-repeat 0 20% url("../assets/images/arrow-content-left.png"); } }
+.graphs .right-col .row {
+  background-color: #cdedf8; }
+.graphs .right-col.mirrored .arrow-left {
+  background: none; }
+  @media (min-width: 576px) {
+    .graphs .right-col.mirrored .arrow-left {
+      background: no-repeat 100% 20% url("../assets/images/arrow-content-right.png"); } }
+.graphs .right-col.mirrored .row {
+  background-color: #ebf8fc; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -136,7 +136,7 @@ main {
       }
     }
   }
-  .endorsement, .inner-page-1-endorsement {
+  .endorsement, .inner-page-endorsement-1, .inner-page-endorsement-2 {
     div:nth-child(3), .play-button-col {
       padding: 1.25rem 1rem;
       text-align: center;
@@ -172,7 +172,7 @@ main {
       }
     }
   }
-  .mccartney, .maharishi {
+  .star-quote, .maharishi {
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -314,7 +314,7 @@ main {
 }
 
 //innerPage1
-.gradient {
+.gradient, .luck {
   text-align: center;
 }
 
@@ -327,4 +327,23 @@ main {
 
 .included {
   text-align: center;
+}
+
+.light-blue-paragraph {
+  text-align: center;
+  padding: $padding__content;
+  @media (min-width: 992px) {
+    padding: $padding__content-lg;
+  }
+}
+
+.graphs {
+  text-align: center;
+  .right-col {
+
+  }
+}
+
+img {
+  max-width: 100%;
 }

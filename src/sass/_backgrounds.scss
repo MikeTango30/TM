@@ -115,7 +115,7 @@ header .row:nth-child(2) {
   }
 }
 
-.mccartney, .maharishi {
+.star-quote, .maharishi {
   background-color: $color__alice-blue;
   p {
     background: no-repeat 50% 100% url("../assets/images/bg-quote.gif");
@@ -185,18 +185,19 @@ header .row:nth-child(2) {
   background-color: $color__alice-blue;
 }
 
-.left-col {
-  background-color:$color__chrome-blue;
-}
-
-.right-col {
-  background-color: $color__light-sky;
-  div:nth-child(2) {
-    background-color:$color__medium-cyan;
+.offer {
+  .left-col {
+    background-color:$color__chrome-blue;
+  }
+  .right-col {
+    background-color: $color__light-sky;
+    div:nth-child(2) {
+      background-color:$color__medium-cyan;
+    }
   }
 }
 
-.inner-page-1-endorsement {
+.inner-page-endorsement-1, .inner-page-endorsement-2 {
   .star-photo {
     height: 322px;
     @media (min-width: 576px) {
@@ -215,11 +216,81 @@ header .row:nth-child(2) {
       height: 100%;
       display: block;
     }
+    &.hugh {
+      a {
+        background: no-repeat url("../assets/images/innerPage2/Happiness--hugh-520px.jpg");
+        background-size: contain;
+        @media (min-width: 992px) {
+          background-size: cover;
+        }
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+    }
+    &.katy {
+      a {
+        background: no-repeat url("../assets/images/innerPage2/Happiness-katy-perry-520px.jpg");
+        background-size: contain;
+        @media (min-width: 992px) {
+          background-size: cover;
+        }
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+    }
   }
   .play-button-col {
     background-color: $color__heather;
   }
   .helping-people {
     background-color: $color__chrome-blue;
+  }
+}
+
+//innerPage2
+.luck {
+  background: no-repeat 50% url("../assets/images/innerPage2/TM-Benefits-Happiness-peace-meditation-2000x570jpg.jpg");
+  background-size: cover;
+  height: 470px;
+}
+
+.light-blue-paragraph {
+  background-color: $color__light-sky;
+}
+
+.graphs {
+  .left-col {
+    .row:first-child {
+      background-color: $color__summer-sky;
+      height: 270px;
+    }
+    .row:last-child {
+      background-color: $color__white;
+      height: 270px;
+    }
+  }
+  .right-col {
+    .arrow-right {
+      background: none;
+      @media (min-width: 576px) {
+        background: no-repeat 0 20% url("../assets/images/arrow-content-left.png");
+      }
+    }
+    .row {
+      background-color: $color__azureish-white;
+    }
+    &.mirrored {
+      .arrow-left {
+        background: none;
+        @media (min-width: 576px) {
+          background: no-repeat 100% 20% url("../assets/images/arrow-content-right.png");
+        }
+      }
+      .row {
+        background-color: $color__alice-blue;
+      }
+    }
   }
 }

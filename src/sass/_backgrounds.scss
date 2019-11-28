@@ -12,6 +12,7 @@ header .row:nth-child(2) {
 
 .find-teacher {
   background-color: $color__near-dodger-blue;
+
   &:hover {
     background-color: $color__light-cyan;
   }
@@ -21,6 +22,7 @@ header .row:nth-child(2) {
   div:first-child {
     background-color: $color__alice-blue;
   }
+
   div:last-child {
     a {
       background: no-repeat center url("../assets/images/ellenShow.jpg");
@@ -43,6 +45,7 @@ header .row:nth-child(2) {
       height: 300px;
     }
   }
+
   div:nth-child(2) {
     background: no-repeat url("../assets/images/tmHome.jpg");
     background-size: cover;
@@ -53,9 +56,11 @@ header .row:nth-child(2) {
   div:first-child {
     background-color: $color__light-sky;
   }
+
   div:nth-child(2) {
     background: no-repeat 10% 0 url("../assets/images/arrow-content-down.png");
   }
+
   div:last-child {
     background: no-repeat url("../assets/images/background25_560x560.jpg");
     background-size: cover;
@@ -68,6 +73,7 @@ header .row:nth-child(2) {
     @media (min-width: 576px) {
       height: 300px;
     }
+
     a {
       background: no-repeat url("../assets/images/cameron.jpg");
       background-size: cover;
@@ -76,9 +82,11 @@ header .row:nth-child(2) {
       display: block;
     }
   }
+
   div:nth-child(3) {
     background-color: $color__heather;
   }
+
   div:nth-child(4) {
     background-color: $color__light-sky;
   }
@@ -92,6 +100,7 @@ header .row:nth-child(2) {
       height: 300px;
     }
   }
+
   div:last-child {
     background-color: $color__chrome-blue;
     background-size: cover;
@@ -100,16 +109,17 @@ header .row:nth-child(2) {
 
 .daisies {
   .daisies-bg {
-      background: no-repeat url("../assets/images/daisies_1000x500.jpg");
-      background-size: cover;
-      height: 460px;
-      @media (min-width: 992px) {
-        height: 430.38px;
-      }
-      @media (min-width: 1200px) {
-        height: 400.38px;
-      }
+    background: no-repeat url("../assets/images/daisies_1000x500.jpg");
+    background-size: cover;
+    height: 460px;
+    @media (min-width: 992px) {
+      height: 430.38px;
+    }
+    @media (min-width: 1200px) {
+      height: 400.38px;
+    }
   }
+
   div:last-child {
     background: no-repeat 50% 0 url("../assets/images/arrow-content-down.png");
   }
@@ -117,6 +127,7 @@ header .row:nth-child(2) {
 
 .star-quote, .maharishi {
   background-color: $color__alice-blue;
+
   p {
     background: no-repeat 50% 100% url("../assets/images/bg-quote.gif");
     display: block;
@@ -131,8 +142,10 @@ header .row:nth-child(2) {
       height: 300px;
     }
   }
+
   div:last-child {
     background: none;
+
     .arrow-left {
       background: none;
       @media (min-width: 576px) {
@@ -187,12 +200,14 @@ header .row:nth-child(2) {
 
 .offer {
   .left-col {
-    background-color:$color__chrome-blue;
+    background-color: $color__chrome-blue;
   }
+
   .right-col {
     background-color: $color__light-sky;
+
     div:nth-child(2) {
-      background-color:$color__medium-cyan;
+      background-color: $color__medium-cyan;
     }
   }
 }
@@ -206,6 +221,7 @@ header .row:nth-child(2) {
     @media (min-width: 992px) {
       height: 272px;
     }
+
     a {
       background: no-repeat url("../assets/images/innerPage1/TMCoursefee-Healing-560px.jpg");
       background-size: contain;
@@ -216,6 +232,7 @@ header .row:nth-child(2) {
       height: 100%;
       display: block;
     }
+
     &.hugh {
       a {
         background: no-repeat url("../assets/images/innerPage2/Happiness--hugh-520px.jpg");
@@ -228,6 +245,7 @@ header .row:nth-child(2) {
         display: block;
       }
     }
+
     &.katy {
       a {
         background: no-repeat url("../assets/images/innerPage2/Happiness-katy-perry-520px.jpg");
@@ -241,9 +259,11 @@ header .row:nth-child(2) {
       }
     }
   }
+
   .play-button-col {
     background-color: $color__heather;
   }
+
   .helping-people {
     background-color: $color__chrome-blue;
   }
@@ -266,11 +286,13 @@ header .row:nth-child(2) {
       background-color: $color__summer-sky;
       height: 270px;
     }
+
     .row:last-child {
       background-color: $color__white;
       height: 270px;
     }
   }
+
   .right-col {
     .arrow-right {
       background: none;
@@ -278,9 +300,11 @@ header .row:nth-child(2) {
         background: no-repeat 0 20% url("../assets/images/arrow-content-left.png");
       }
     }
+
     .row {
       background-color: $color__azureish-white;
     }
+
     &.mirrored {
       .arrow-left {
         background: none;
@@ -288,9 +312,42 @@ header .row:nth-child(2) {
           background: no-repeat 100% 20% url("../assets/images/arrow-content-right.png");
         }
       }
+
       .row {
         background-color: $color__alice-blue;
       }
     }
+  }
+}
+
+.alice-blue {
+  background-color: $color__alice-blue;
+}
+
+.chrome-blue {
+  background-color: $color__chrome-blue;
+}
+
+.summer-sky {
+  background-color: $color__summer-sky;
+}
+
+.light-sky {
+  background-color: $color__light-sky;
+}
+
+.cornflower-blue {
+  background-color: $color__cornflower-blue;
+}
+
+.table-wrapper {
+  background: no-repeat 50% 0 url("../assets/images/arrow-content-down.png");
+  .row {
+    height: 130px;
+  }
+  .col-3 {
+    max-width: 220px;
+    //height: 130px;
+    border-top: 1px solid $color__white;
   }
 }

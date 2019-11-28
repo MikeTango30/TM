@@ -334,3 +334,18 @@ h1, h2, h3, h4 {
     }
   }
 }
+
+.table-wrapper {
+  color: $color__white;
+  font-size: $font-size__large;
+  h4, h5 {
+    text-transform: uppercase;
+    font-weight: $font-weight__bold;
+  }
+  h5, .table-technic {
+    font-size: 1.5rem;
+  }
+  .table-technic {
+    font-weight: $font-weight__bold;
+  }
+}

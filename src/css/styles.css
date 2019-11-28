@@ -240,6 +240,13 @@ main .flag:after {
 img {
   max-width: 100%; }
 
+.table-wrapper {
+  padding: 3.5rem 4.5rem; }
+  .table-wrapper .row {
+    justify-content: center; }
+  .table-wrapper .col-3 {
+    text-align: center; }
+
 .container-fluid {
   font-family: "Raleway", sans-serif;
   color: #5a7c93; }
@@ -451,6 +458,17 @@ h1, h2, h3, h4 {
 .graphs .right-col p {
   font-size: 0.875rem; }
 
+.table-wrapper {
+  color: #ffffff;
+  font-size: 1.25rem; }
+  .table-wrapper h4, .table-wrapper h5 {
+    text-transform: uppercase;
+    font-weight: 700; }
+  .table-wrapper h5, .table-wrapper .table-technic {
+    font-size: 1.5rem; }
+  .table-wrapper .table-technic {
+    font-weight: 700; }
+
 header .row:nth-child(2) {
   background-color: #9addf5; }
 
@@ -659,5 +677,28 @@ header .row:nth-child(2) {
       background: no-repeat 100% 20% url("../assets/images/arrow-content-right.png"); } }
 .graphs .right-col.mirrored .row {
   background-color: #ebf8fc; }
+
+.alice-blue {
+  background-color: #ebf8fc; }
+
+.chrome-blue {
+  background-color: #4e99f0; }
+
+.summer-sky {
+  background-color: #42bef4; }
+
+.light-sky {
+  background-color: #7ed2f5; }
+
+.cornflower-blue {
+  background-color: #6DC1ED; }
+
+.table-wrapper {
+  background: no-repeat 50% 0 url("../assets/images/arrow-content-down.png"); }
+  .table-wrapper .row {
+    height: 130px; }
+  .table-wrapper .col-3 {
+    max-width: 220px;
+    border-top: 1px solid #ffffff; }
 
 /*# sourceMappingURL=styles.css.map */

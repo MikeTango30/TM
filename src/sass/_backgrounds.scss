@@ -125,7 +125,7 @@ header .row:nth-child(2) {
   }
 }
 
-.star-quote, .maharishi {
+.star-quote, .maharishi, .contact-info {
   background-color: $color__alice-blue;
 
   p {
@@ -369,4 +369,8 @@ header .row:nth-child(2) {
       max-width: 220px;
     }
   }
+}
+
+.chevron {
+  background: no-repeat 0 50% url("../assets/images/innerPage4_conacts/bg-chevron.png");
 }

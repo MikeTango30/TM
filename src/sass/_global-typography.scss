@@ -21,6 +21,7 @@ header, header a {
 .navbar-brand {
   div {
     max-width: 215px;
+
     img {
       width: 100%;
     }
@@ -28,33 +29,37 @@ header, header a {
 }
 
 // Nav Links
-.nav-item a{
+.nav-item a {
   font-size: $font-size__small;
   @media (min-width: 1080px) {
     font-size: $font-size__normal;
   }
 
   font-weight: $font-weight__bold;
-  &:hover{
+
+  &:hover {
     color: $color__greyskull;
   }
 }
 
 // Dropdown style
-.dropdown-menu{
+.dropdown-menu {
   .dropdown-item {
     font-weight: $font-weight__thinner;
     color: $color__white;
     background-color: $color__near-dodger-blue;
+
     &:hover {
       color: $color__white;
       background-color: #004C80;
     }
+
     &:focus {
       color: $color__white;
       background-color: lighten(#004C80, 10%);
     }
   }
+
   .dropdown-item:nth-child(n+2):nth-child(-n+5) {
     border-top: 1px solid $color__white;
   }
@@ -65,75 +70,90 @@ main {
   section:first-child {
     .container {
       color: $color__white;
+
       a {
-        color:$color__white;
+        color: $color__white;
         text-decoration: underline;
       }
+
       .wrapper {
         .col:last-child {
           .list-number {
             font-size: 2.5rem;
           }
         }
+
         p {
           font-size: $font-size__normal;
           @media (min-width: 578px) {
             font-size: $font-size__medium;
           }
+
           span {
             font-weight: $font-weight__bold;
           }
         }
       }
     }
+
     .find-teacher {
       color: $color__white;
+
       &:hover {
         color: $color__wisteria;
       }
     }
   }
+
   .ellen {
     div:first-child {
       color: $color__cyan-blue;
       padding: 1.5rem 0;
+
       p {
         font-size: $font-size__large;
         padding-top: .5rem;
       }
     }
   }
+
   .what-is-tm {
     div:first-child {
       font-size: 1.75rem;
       color: $color__white;
     }
   }
+
   .clouds {
     div:nth-child(2) {
       font-size: $font-size__large;
       color: $color__cyan-blue;
     }
   }
+
   .endorsement, .inner-page-endorsement-1, .inner-page-endorsement-2 {
     div:nth-child(3), .play-button-col, a {
       color: $color__white;
       text-decoration: none;
+
       p:nth-child(2) {
         font-weight: $font-weight__bold;
         font-size: $font-size__large;
       }
+
       p:last-child {
         font-size: $font-size__small;
       }
     }
   }
+
   .what-happens {
     div:last-child {
       font-size: 1.75rem;
       color: $color__white;
     }
   }
+
   .daisies {
     div:last-child {
       font-size: $font-size__normal;
@@ -143,30 +163,42 @@ main {
       color: $color__cyan-blue;
     }
   }
-  .star-quote, .maharishi {
+
+  .star-quote, .maharishi, .contact-info {
     .col {
       color: $color__cyan-blue;
+
       p {
         font-size: $font-size__small;
         @media (min-width: 576px) {
           font-size: $font-size__normal;
         }
       }
-      h3 {
-        font-weight: $font-weight__thinner;
+
+      h2, h3 {
         font-size: $font-size__large;
         @media (min-width: 576px) {
           font-size: 1.75rem;
         }
       }
+
+      h2 {
+        color: $color__summer-sky;
+      }
+
+      h3 {
+        font-weight: $font-weight__thinner;
+      }
     }
   }
+
   .tm-value {
     h2 {
       color: $color__white;
       text-align: center;
       font-weight: $font-weight__thinner;
     }
+
     p {
       font-size: $font-size__normal;
       @media (min-width: 576px) {
@@ -175,6 +207,7 @@ main {
       color: $color__cyan-blue;
     }
   }
+
   .benefits a {
     color: $color__white;
     font-weight: normal;
@@ -182,6 +215,7 @@ main {
     text-transform: uppercase;
     text-decoration: none;
   }
+
   .maharishi {
     a {
       color: $color__medium-cyan;
@@ -189,25 +223,31 @@ main {
       text-decoration: none;
     }
   }
+
   .take-step {
     color: $color__white;
+
     span {
       font-weight: $font-weight__bold;
+
       a {
         color: $color__white;
         text-decoration: underline;
       }
     }
   }
+
   .contact-us {
     a {
       color: $color__white;
       text-decoration: none;
     }
   }
+
   .faq, .accordion {
     color: $color__white;
   }
+
   .faq {
     h1 {
       font-size: 1.5rem;
@@ -227,22 +267,26 @@ main {
       }
     }
   }
-  .eu-sub-right{
+
+  .eu-sub-right {
     color: $color__cyan-blue;
     font-size: $font-size__normal;
     @media (min-width: 576px) {
       font-size: $font-size__large;
     }
   }
+
   .footer-upper {
     a {
       color: $color__cyan-blue;
     }
+
     li {
       font-weight: $font-weight__thinner;
       list-style: none;
     }
   }
+
   .footer-lower {
     font-weight: $font-weight__bold;
     font-size: 0.625rem;
@@ -262,13 +306,16 @@ h1, h2, h3, h4 {
 
 .included {
   color: $color__summer-sky;
+
   h2 {
     font-weight: $font-weight__thinner;
     font-size: 1.8rem;
   }
+
   h3 {
     font-size: 1.65rem;
   }
+
   i {
     color: $color__chrome-blue;
     font-size: 1.3rem;
@@ -279,12 +326,15 @@ h1, h2, h3, h4 {
 .offer {
   color: $color__white;
   font-size: $font-size__medium;
+
   h1 {
     font-size: 2.2rem;
   }
+
   h3 {
     font-size: 1.65rem;
   }
+
   .right-col {
     p {
       color: $color__cyan-blue;
@@ -295,9 +345,11 @@ h1, h2, h3, h4 {
 .helping-people {
   color: $color__white;
   font-size: $font-size__medium;
+
   a {
     font-weight: $font-weight__bold;
   }
+
   h3 {
     font-size: 1.65rem;
   }
@@ -308,6 +360,7 @@ h1, h2, h3, h4 {
     color: $color__white;
     font-size: 2.2rem;
   }
+
   p {
     font-size: $font-size__large;
   }
@@ -319,11 +372,13 @@ h1, h2, h3, h4 {
       color: $color__cyan-blue;
     }
   }
+
   .right-col {
     h3 {
       color: $color__celestial-blue;
       font-size: 1.2rem;
     }
+
     p {
       font-size: $font-size__small;
     }
@@ -337,40 +392,75 @@ h1, h2, h3, h4 {
     font-size: $font-size__small - .2rem;
   }
   @media (min-width: 768px) {
-    font-size:$font-size__small;
+    font-size: $font-size__small;
   }
   @media (min-width: 992px) {
     font-size: $font-size__large;
   }
+
   h4, h5 {
     text-transform: uppercase;
     font-weight: $font-weight__bold;
   }
+
   h4 {
     font-size: $font-size__normal - .3rem;
     @media (min-width: 576px) {
-      font-size:  $font-size__normal - .1rem;
+      font-size: $font-size__normal - .1rem;
     }
     @media (min-width: 768px) {
-      font-size:$font-size__normal;
+      font-size: $font-size__normal;
     }
     @media (min-width: 992px) {
       font-size: $font-size__large;
     }
   }
+
   h5, .table-technic {
     font-size: $font-size__small - .3rem;
     @media (min-width: 576px) {
       font-size: $font-size__small;
     }
     @media (min-width: 768px) {
-      font-size:$font-size__normal;
+      font-size: $font-size__normal;
     }
     @media (min-width: 992px) {
       font-size: $font-size__large;
     }
   }
+
   .table-technic {
     font-weight: $font-weight__bold;
   }
 }
+
+.contact-form {
+  button {
+    text-transform: uppercase;
+    font-weight: $font-weight__bold;
+  }
+
+  a {
+    font-weight: $font-weight__bold;
+  }
+}
+
+.tm-centers {
+  font-size: .9rem;
+
+  .address-header {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: $font-weight__bold;
+  }
+
+  span {
+    font-weight: $font-weight__bold;
+  }
+
+  a {
+    color: $color__cyan-blue;
+    text-decoration: none;
+  }
+}
+

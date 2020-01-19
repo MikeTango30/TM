@@ -300,6 +300,20 @@ main {
   text-align: center;
 }
 
+.portlet {
+  padding: .25rem 0;
+  .portlet-item {
+    text-transform: uppercase;
+    padding: .2rem .5rem;
+    .portlet-item-row {
+      justify-content: center;
+      a {
+        padding-left: .6rem;
+      }
+    }
+  }
+}
+
 .included, .left-col>.row>.col, .right-col>.row>.col, .helping-people .row .col {
   padding: $padding__content;
   @media (min-width: 992px) {

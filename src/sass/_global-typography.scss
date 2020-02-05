@@ -485,3 +485,16 @@ h1, h2, h3, h4 {
   }
 }
 
+.portlet {
+  .portlet-item {
+    font-weight: $font-weight__bold;
+    a {
+      color: $color__governor-bay;
+      &:hover {
+        text-decoration: none;
+        color: $color__wisteria;
+      }
+    }
+  }
+}
+

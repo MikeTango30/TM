@@ -256,6 +256,22 @@ header .row:nth-child(2) {
 }
 
 //innerPage2
+.portlet {
+  background-color: $color__pattens-blue;
+  .portlet-item:not(:last-child) {
+    border-right:1px solid #ccc;
+  }
+  .portlet-up:before {
+    content: url("../assets/images/innerPage2/nav-secondary-up.png");
+  }
+  .portlet-down:before {
+    content: url("../assets/images/innerPage2/nav-secondary-down.png");
+  }
+  .portlet-item .row:before {
+    font-size: 0;
+  }
+}
+
 .luck {
   background: no-repeat 50% url("../assets/images/innerPage2/TM-Benefits-Happiness-peace-meditation-2000x570jpg.jpg");
   background-size: cover;

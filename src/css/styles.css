@@ -282,6 +282,12 @@ img {
   .tm-centers .chevron {
     margin-left: 15px; }
 
+.border-blue {
+  box-shadow: inset 0 0 0 4px #42bff4; }
+
+.banner-benefits {
+  list-style: none; }
+
 .container-fluid {
   font-family: "Raleway", sans-serif;
   color: #5a7c93; }
@@ -464,15 +470,16 @@ h1, h2, h3, h4 {
     font-size: 1.3rem;
     padding: 0 0 .5rem 1rem; }
 
-.offer {
-  color: #ffffff;
-  font-size: 1.125rem; }
-  .offer h1 {
-    font-size: 2.2rem; }
-  .offer h3 {
-    font-size: 1.65rem; }
-  .offer .right-col p {
-    color: #5a7c93; }
+.info-steps {
+  color: #5a7c93;
+  font-size: 1.25rem; }
+  .info-steps .info-steps-title {
+    color: #42bff4;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 2rem; }
+  .info-steps .right-col {
+    color: #ffffff; }
 
 .helping-people {
   color: #ffffff;
@@ -687,13 +694,6 @@ header .row:nth-child(2) {
 .included {
   background-color: #ebf8fc; }
 
-.offer .left-col {
-  background-color: #4e99f0; }
-.offer .right-col {
-  background-color: #7ed2f5; }
-  .offer .right-col div:nth-child(2) {
-    background-color: #42bff4; }
-
 .inner-page-endorsement-1 .star-photo, .inner-page-endorsement-2 .star-photo {
   height: 322px; }
   @media (min-width: 576px) {
@@ -763,6 +763,21 @@ header .row:nth-child(2) {
 .graphs .right-col.mirrored .row {
   background-color: #ebf8fc; }
 
+.step-1-1-bg {
+  background: no-repeat 100% url("../assets/images/steps1-column-row-image.jpg");
+  background-size: cover;
+  min-height: 250px; }
+
+.step-1-2-bg {
+  background: no-repeat 100% url("../assets/images/HowdoIleatn_398x257.jpg");
+  background-size: cover;
+  min-height: 250px; }
+
+.step-1-3-bg {
+  background: no-repeat 100% url("../assets/images/TM-How-05.jpg");
+  background-size: cover;
+  min-height: 340px; }
+
 .alice-blue {
   background-color: #ebf8fc; }
 
@@ -771,6 +786,9 @@ header .row:nth-child(2) {
 
 .summer-sky {
   background-color: #42bef4; }
+
+.medium-cyan {
+  background-color: #42bff4; }
 
 .light-sky {
   background-color: #7ed2f5; }

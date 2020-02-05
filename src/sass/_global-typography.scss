@@ -323,24 +323,45 @@ h1, h2, h3, h4 {
   }
 }
 
-.offer {
-  color: $color__white;
-  font-size: $font-size__medium;
+//.offer {
+//  color: $color__white;
+//  font-size: $font-size__medium;
+//
+//  h1 {
+//    font-size: 2.2rem;
+//  }
+//
+//  h3 {
+//    font-size: 1.65rem;
+//  }
+//
+//  .right-col {
+//    p {
+//      color: $color__cyan-blue;
+//    }
+//  }
+//}
 
-  h1 {
+
+// how to learn
+.info-steps {
+  color: $color__cyan-blue;
+
+  .info-steps-title {
+    color: $color__medium-cyan;
     font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
   }
 
-  h3 {
-    font-size: 1.65rem;
-  }
+  font-size: $font-size__large;
 
   .right-col {
-    p {
-      color: $color__cyan-blue;
-    }
+    color: $color__white;
   }
 }
+
+//
 
 .helping-people {
   color: $color__white;

@@ -364,6 +364,10 @@ header .row:nth-child(2) {
   background-color: $color__cornflower-blue;
 }
 
+.near-dodger-blue {
+  background-color: $color__near-dodger-blue;
+}
+
 .table-wrapper {
   @media  (min-width: 768px){
     background: no-repeat 50% 0 url("../assets/images/arrow-content-down.png");
@@ -397,4 +401,27 @@ header .row:nth-child(2) {
 
 .chevron {
   background: no-repeat 0 50% url("../assets/images/innerPage4_conacts/bg-chevron.png");
+}
+
+
+.benefit-1, .benefit-2, .benefit-3, .benefit-4, .benefit-5 {
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 270px;
+}
+.benefit-1 {
+  background-image: url("../assets/images/tm_value/TM-14-stress-icon.png");
+}
+.benefit-2 {
+  background-image: url("../assets/images/tm_value/TM-11-happiness-icon.png");
+}
+.benefit-3 {
+  background-image: url("../assets/images/tm_value/TM-09-reduced-anxiety-icon.png");
+}
+.benefit-4 {
+  background-image: url("../assets/images/tm_value/TM-10-health-heart-icon.png");
+}
+.benefit-5 {
+  background-image: url("../assets/images/tm_value/TM-12-mind-clarity-icon.png");
 }

@@ -387,6 +387,12 @@ h1, h2, h3, h4 {
   }
 }
 
+.info-block-full {
+  p {
+    color: $color__white;
+  }
+}
+
 .graphs {
   .left-col {
     p {
